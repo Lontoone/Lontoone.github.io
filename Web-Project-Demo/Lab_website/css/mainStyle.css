@@ -1,0 +1,721 @@
+html{
+    scroll-behavior: smooth;   
+}
+body{
+    font-family: SimSun ,sans-serif;
+}
+.banner {
+    background-color: gray;
+    position: relative;
+    display: block;
+    background-size: 2000px;
+    background-size: cover;
+    height: 588px;
+    width: 100%;
+    /*background-image: linear-gradient(rgba(97, 133, 111, 0.8), rgba(97, 133, 111, 0.8)), url("../img/A1.jpg");*/
+    background-image: linear-gradient( to top ,rgba(97, 133, 111, 0.548),rgba(97, 133, 111, 0.548)), url("../img/A1.jpg");
+
+    background-position-y: -150px;
+
+}
+/*
+.banner p {
+    position: relative;
+    color: aliceblue;
+    font-size: 36px;
+    padding-top: 550px;
+
+}
+*/
+.imgText {
+    position: relative;
+    width: 50%;
+    display: flex;
+    display: block;
+    vertical-align: top;
+    font-size: 24px;
+    padding-top: 150px;
+    padding-left:40%;
+    
+    margin: auto;
+
+    transition: 0.5s;
+}
+.imgText a{ text-decoration: none;}
+.imgText h1{
+    white-space: nowrap;
+    color: rgb(233, 255, 245);
+    font-size: 28pt;
+    padding-top:20px;
+    line-height: 2.5em;
+    text-indent: -3em;
+    font-weight: bolder;
+}
+
+.bigLogoImg {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+#phonenav_ck{
+    display: none;
+}
+#phonenav_btnlb{
+    background-image: url("../img/Phone_navBtn_bar.png");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-size: cover;
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    position: fixed;
+    z-index: 500;
+    margin-top: 25px;
+    right: 15px;
+    
+    display: none;
+}
+
+#phonenav_ck:checked~.sidenav {
+    /*background-color: rgb(212, 47, 47);*/
+    z-index: 3000;
+    display: inherit;
+    transform: translate(0px)
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(74,114,93);
+    background-image: linear-gradient( to top ,rgba(64, 85, 72, 0.548),rgba(80, 112, 93, 0.815)),
+                    url("../img/linesBG.png");
+    /*overflow: hidden;*/
+ 
+    box-shadow: 5px 5px 5px rgb(87, 133, 109);
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+
+.sidenav img {
+    height: 90px;
+    width: 90px;
+    padding-left:10px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(40, 61, 50));
+    margin-bottom: 30px;
+}
+
+.sidenav a{
+    position: relative;
+    color: aliceblue;
+    font-size: 28px;
+
+    text-decoration: none;
+    margin: auto;
+   
+}
+
+.sidenav li{
+    list-style: none;
+    height: 50px;
+    margin-top:10px ;
+    position: relative;    
+    display: flex;
+    transition: 0.5s;
+}
+.sidenav li:hover{
+    background: linear-gradient(to right ,rgba(105, 161, 132, 0.24) ,rgba(156, 235, 194, 0.459));
+    box-shadow: 0px 0px 5px rgb(20, 31, 25);
+    height: 70px;
+    font-size: 40px;
+    transform: translate(25px);
+}
+
+.info{
+    position: relative;
+    width: 50%;
+    height: 500px;
+    
+    
+    /*background: rgb(100, 100, 100);*/
+    margin: 0px auto;
+    margin-left: 25%;
+    
+}
+#info-title{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+}
+.info ul li p{
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+    /*margin-left: 30px;*/
+    box-sizing: border-box;
+}
+.info ul{
+    position: relative;
+    display: flex;
+    list-style:none;
+    margin: auto;
+    /*left: 8%;*/
+
+}
+.info li{
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    transition: 0.5s;
+}
+
+.info img{
+    position: relative;
+    
+    background-size: 2000px;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+ 
+    /*
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    */
+}
+.info li:hover{
+    transform: rotateY(360deg);
+    padding: 20px;
+    background: linear-gradient(to top ,rgba(188, 235, 210, 0.63) ,rgba(191, 241, 215, 0.055));
+    box-shadow: 0px 0px 5px rgb(20, 31, 25);
+}
+
+
+.sub-content{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin: 0px auto;
+    margin-left: 300px;
+
+    margin-bottom: 5%;
+
+}
+.sub-content h1 span{
+    font-size: 16pt;
+    position: relative;
+}
+
+.sub-content h2 span{ 
+    font-size: 12pt;
+    text-indent: 2em;
+    vertical-align: baseline;
+}
+
+/*預覽照片*/
+.sub-content img{
+    float: left;
+    
+    background-size: 2000px;
+    background-size: cover;
+    width: 8.82cm;
+    height: 5.89cm;
+
+    margin-right: 50px;
+    
+}
+
+/*綠字標題 (共用)*/
+.title2{
+    font-size: 28pt;
+    color: rgb(76, 117, 96) ;
+    letter-spacing: 0pt;
+
+    padding-left: 15px;
+    margin-bottom: 50px;
+    border-left: 10px solid rgb(107, 170, 137);
+
+}
+
+.sub-content h1{
+    font-size: 28pt;
+    margin-bottom: 25px;
+}
+.sub-content h2{
+    font-size: 18pt;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+/*-------------------表格樣式設定------------------------V*/
+.sub-content table{
+    border-collapse: collapse ;
+    margin: 25px;
+    font: 24pt;
+    width: 100%;
+
+}
+
+/*表頭*/
+.sub-content table thead tr{
+    background-color:rgb(105, 161, 132) ;
+    color: white;
+    text-align: center;
+
+    font-weight: bold;
+    height: 50px;
+    margin-left: 15px;
+}
+.sub-content table tbody tr{
+    /*每行間的虛線*/
+    border-bottom:  1px solid rgba(105, 161, 132, 0.315);
+}
+/*偶數行*/
+.sub-content table tbody tr:nth-of-type(even){
+    background-color:  rgba(205, 245, 225, 0.274);
+}
+.sub-content table th{
+    padding-top: 15px;
+   
+}
+.sub-content table td{
+    font-size: 16pt;
+    padding: 20px 10px;
+    text-align: center;
+     
+}
+
+/*[特定] 特定欄位需要換行*/
+.table-td-white-space-nowrap{
+    white-space: nowrap;
+}
+.table-td-white-space-prewrap{
+    white-space: pre-wrap;
+}
+/*------------------------------------------------^*/
+
+
+/*-----------表格之"看更多"之文字遮擋效果------------------*/
+.read-more-btn-blankOut{
+    position: relative;
+    background-image: linear-gradient(-180deg,rgba(255,255,255,0) 0%,rgb(255, 255, 255) 70%);
+    background-size: cover;
+    margin-left: -150pt;
+    width: 110%;
+    margin-top: -200px;
+    padding-top: 190px;
+    text-align: right;
+    padding-right: 150px;
+    transition: 0.5s;
+}
+.read-more-btn-blankOut a{
+    position: relative;
+    color: rgb(33, 102, 67);
+    font-size: 14pt;
+    line-height: 1.625em;
+    text-decoration: none;
+
+}
+.read-more-btn-blankOut:hover{
+    transform: translateX(125px);
+}
+.read-more-btn-blankOut span{
+    font-weight: bold;
+    color:  rgb(84, 124, 104);
+}
+/*-----------------------------------------------------*/
+
+/*[特定]額外向上間隔*/
+.extra_top_margin{
+    margin-top: +100px;
+}
+.extra_bolder{
+    font-weight: bolder;
+}
+
+/*-------------------------順序List---------------------*/
+.sub-content ol{
+    list-style: none;
+    counter-reset: cnt;
+
+    position: relative;
+    box-sizing: border-box;/*???*/
+    width: 100%;
+    margin-left: 15px;
+}
+
+.sub-content ol li{
+    counter-increment: cnt;
+
+    display: flex;
+    background-color:rgba(205, 245, 225, 0.274) ;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.sub-content ol li:nth-of-type(even){
+    background-color: white;
+}
+.sub-content ol li::before{
+    content: counter(cnt);
+    position: relative;
+    height: 40px;
+    border-right: 5px solid rgba(134, 168, 151, 0.527);
+    padding-right: 15px;
+    margin-right: 1em;
+}
+
+.sub-content ol li a{
+    text-decoration: none;
+    font-size: 18pt;
+    color: rgb(62, 88, 75);
+    font-weight: 700;
+
+}
+
+.sub-content ul{
+    list-style: none;
+
+    position: relative;
+    box-sizing: border-box;/*???*/
+    width: 100%;
+    margin-left: 15px;
+    list-style-image: url(../img/ul_dot.png);
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.sub-content ul li{
+    display: flex list-item;
+    background-color:rgba(205, 245, 225, 0.274) ;
+    padding: 15px 20px;
+    transition: 0.5s;
+}
+.sub-content ul li:nth-of-type(even){
+    background-color: white;
+}
+
+/*---------------------------------------------------------*/
+
+/*---------------------TABS-------------------------------*/
+.tab_container{
+    width: 100%;
+}
+.tab_container .tab-btn_container{
+    height: 15%;
+}
+.tab_container .tab-btn_container button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18pt;
+    background-color:rgba(205, 245, 225, 0.274);
+    
+}
+.tab-btn_container button{
+    color: rgb(22, 70, 43);
+    font-weight: 700;
+
+}
+.tab_container .tab-btn_container button:hover{
+    transition: 0.5s;
+    background-color: rgba(134, 168, 151, 0.884);
+    color: rgb(235, 255, 244);
+}
+.tab_container .tabPanle{
+    height: 85%;
+    /*text-align: center;*/
+    padding-top: 150px;
+    box-sizing: border-box;
+    font-size: 14pt;
+    
+    display: none;
+}
+.tabPanle:first-of-type{display: block;}
+/*--------------------------------------------------------*/
+
+.footer{
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    background-color:rgb(27,42,34);
+    overflow: hidden;
+    box-sizing: border-box;
+
+    border-top: 5px solid rgba(134, 168, 151, 0.959)
+}
+.footer p{
+    color: rgba(175, 202, 188, 0.753);
+    font-size: 12pt;
+    margin-left: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+/*-------------------------floatNav-----------------------*/
+.floatNav{
+    position: fixed  ;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    overflow: hidden;
+    float: right;
+}
+.floatNav ul{
+    padding-left: 50px;
+    position: relative;
+   
+}
+.floatNav ul li{
+    padding-bottom: 25px;
+}
+.floatNav ul::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    right: 100px;
+    top: 0;
+    bottom: 25px;
+    background: rgb(105, 161, 132);
+    z-index: -1;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.floatNav ul li{
+    padding: 30px 0;
+    padding-left: 20px;
+
+    
+    white-space: pre-wrap;
+    width: 85px;
+}
+.floatNav ul li a{
+    text-decoration: none;
+    position: relative;
+    color: rgba(134, 168, 151, 0.959);
+    font-size: 16pt;
+    line-height: 1rem;
+    font-weight: 500;
+
+}
+
+/*前方圓點*/
+.floatNav ul li a::before{
+    content: "";
+    position: absolute;
+    background:  rgb(255, 255, 255);
+    height: 18px;
+    width: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    border-radius: 50px;
+    border:4px solid rgb(144, 187, 164);
+    transition: background 250ms;
+}
+
+.floatNav ul li a.navTab{
+    font-weight:700 ;
+
+}
+.floatNav ul li a.navTab::before{
+    background:  rgb(144, 187, 164);
+}
+
+/*--------------------------------------------------------*/
+
+
+/*RESPONSIVE*/
+@media screen and (max-width:1000px){
+    body{
+        width: 100%;
+    }
+    #phonenav_btnlb{
+        display: inline;
+    }
+    
+    .sidenav{
+        /*display: none;*/
+        transform: translate(-500px);
+    }
+
+    .imgText {
+        position: relative;
+        display: inline;
+        font-size: 24px;        
+        width: 100%;
+        transition: 0.5s;
+    }
+    .imgText img{
+        float: left;
+        padding-top: 20px;
+        padding-left: 5px;
+        width: 60px;
+        height: 60px;
+    }
+    .imgText h1{
+        /*float: right;*/
+        white-space: nowrap;
+        padding-right: 10px;
+        color: rgb(219, 240, 230);
+        font-size: 15pt;
+        padding-top:0px;
+        line-height: 2.5em;
+        text-indent: 0em;
+        font-weight: bolder;
+    }
+    
+    .info{
+        display: inline;
+    }
+    
+    .info ul{
+        position: relative;
+        display: table;
+        list-style:none;
+    }
+    
+    .info li{
+        position: relative;
+        margin: auto;
+        margin: 30px 15px;
+    }
+
+
+    .banner {
+        position: relative;
+        display: block;
+        background-size: 650px;
+        background-size: cover;
+        height: 100px;
+        width: 100%;
+        background-image: linear-gradient( to top ,rgba(64, 85, 72, 0.548),rgba(80, 112, 93, 0.815)),
+        url("../img/linesBG.png");
+  
+        background-color:rgba(97, 133, 111, 0.8) ; 
+    }
+
+    .sub-content{
+        width: 95%;
+        height: 30%;
+        margin: 0px auto;
+    
+        margin-bottom: 5%;
+        margin-top:5% ;
+        margin-left: 15px;
+    
+    }
+    .sub-content img{
+        float: none;
+        
+        background-size: 2000px;
+        background-size: cover;
+        width: 8.82cm;
+        height: 5.89cm;
+    
+        margin-right: 50px;
+        
+    }
+    .sub-content h1 span{
+        font-size: 16pt;
+        /*text-indent: 2em;*/
+        position: relative;
+        left: 40px;
+    }
+    
+    .sub-content h1{
+        font-size: 20pt;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }   
+    .sub-content h2{
+        font-size: 14pt;
+        text-indent: 1em;
+        line-height: 2em;
+    }
+    .sub-content h2 span{ 
+        font-size: 12pt;
+        text-indent: 2em;
+    }
+    .title2{
+        font-size: 28pt;
+        color: rgb(76, 117, 96) ;
+        letter-spacing: 0pt;
+    
+        padding-left: 15px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        border-left: 10px solid rgb(107, 170, 137);
+    
+    }
+    
+
+    .sub-content table{
+        border-collapse: collapse ;
+        
+        margin: 25px;
+    
+        width: 90%;
+        white-space: pre-wrap;
+        table-layout: auto;
+    }
+    .sub-content table th{
+    padding-top: 15px;
+    }
+    .sub-content table td {
+        font-size: 14pt;
+        padding: 10px 5px;
+        text-align: center;
+        white-space: pre-wrap;
+        line-height: 1.25em;
+        min-width: 50px;
+    }
+
+    .read-more-btn-blankOut{
+        position: relative;
+        background-image: linear-gradient(-180deg,rgba(255,255,255,0) 0%,rgb(255, 255, 255) 70%);
+        background-size: cover;
+        margin-right:0px;
+        width: 100%;
+        margin-top: -250px;
+        padding-top: 190px;
+        text-align: right;
+        transition: 0.5s;
+
+        float: right;
+    }
+    .read-more-btn-blankOut:hover{
+        transform: translateX(25px);
+    }
+
+    .sub-content ol{
+        width: 90%;
+    }
+    .sub-content ol li span{
+      font-size: 14pt;
+      line-height: 1.25em;
+    }
+    
+    .floatNav{
+        display: none;
+    }
+}

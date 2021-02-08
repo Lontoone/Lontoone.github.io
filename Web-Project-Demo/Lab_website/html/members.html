@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>家族成員</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mainStyle.css">
+
+    <script type="text/javascript" src="../js/table2td.js"></script>
+</head>
+
+<body>
+    <!--上側導覽開啟按鈕(給行動裝置)-->
+    <input type="checkbox" id="phonenav_ck">
+    <label for="phonenav_ck" id="phonenav_btnlb"></label>
+    <!--左側導覽-->
+    <div class="sidenav">
+        <a href="../html/index.html">
+            <img src="../img/logo.png" alt="電子商務與電子化企業實驗室LOGO圖片">
+        </a>
+        <ol>
+            <li><a href="../html/index.html">實驗室簡介</a></li>
+            <li><a href="../html/teacher.html">指導老師</a></li>
+            <li><a href="../html/members.html">家族成員</a></li>
+            <li><a href="../html/activity.html">學術活動</a></li>
+            <li><a href="../html/sharing.html">資源分享</a></li>
+            <li><a href="../html/contact.html">聯絡我們</a></li>
+        </ol>
+    </div>
+    <div class="sub-content extra_top_margin">
+        <p class="title2">碩士生</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>畢業年度</th>
+                    <th>姓名</th>
+                    <th>聯合指導</th>
+                    <th>所別</th>
+                    <th>論文主題與方向</th>
+                </tr>
+            </thead>
+            <tbody id="member_MBA">
+                <script>readTextFile("../data/member_MBA.txt", "member_MBA");</script>
+            </tbody>
+        </table>
+
+        <p class="title2 extra_top_margin">大學部專題指導</p>
+        <table>
+            <thead>
+                <th>畢業年度</th>
+                <th>學制</th>
+                <th>成員</th>
+                <th>主題</th>
+            </thead>
+            <tbody id="member_college">
+                <script>readTextFile("../data/member_college.txt", "member_college");</script>
+            </tbody>
+        </table>
+
+
+    </div>
+
+</body>
+<script type="text/javascript" src="../js/mainScript.js"></script>
+
+</html>

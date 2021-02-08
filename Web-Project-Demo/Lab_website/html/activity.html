@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>學術活動</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mainStyle.css">
+
+    <script type="text/javascript" src="../js/mainScript.js"></script>
+
+    <script type="text/javascript" src="../js/table2td.js"></script>
+</head>
+
+<body>
+    <!--上側導覽開啟按鈕(給行動裝置)-->
+    <input type="checkbox" id="phonenav_ck">
+    <label for="phonenav_ck" id="phonenav_btnlb"></label>
+    <!--左側導覽-->
+    <div class="sidenav">
+        <a href="../html/index.html">
+            <img src="../img/logo.png" alt="電子商務與電子化企業實驗室LOGO圖片">
+        </a>
+        <ol>
+            <li><a href="../html/index.html">實驗室簡介</a></li>
+            <li><a href="../html/teacher.html">指導老師</a></li>
+            <li><a href="../html/members.html">家族成員</a></li>
+            <li><a href="../html/activity.html">學術活動</a></li>
+            <li><a href="../html/sharing.html">資源分享</a></li>
+            <li><a href="../html/contact.html">聯絡我們</a></li>
+        </ol>
+    </div>
+
+    <!--右側浮動導覽-->
+    <nav class="floatNav">
+        <ul>
+            <li><a href="#anchor_top" class="navTab">回最頂</a></li>
+            <li><a href="#anchor_education" class="">學歷</a></li>
+            <li><a href="#anchor_experience" class="">經歷</a></li>
+            <li><a href="#anchor_diploma" class="">專業證書</a></li>
+            <li><a href="#anchor_classes" class="">開設課程</a></li>
+            <li><a href="#anchor_inSchoolService" class="">校內服務</a></li>
+            <li><a href="#anchor_otherSecrvice" class="">校外服務</a></li>
+            <li><a href="#anchor_classProferm" class="">教學表現</a></li>
+        </ul>
+    </nav>
+
+    <div class="sub-content extra_top_margin">
+        <div class="tab_container">
+            <div class="tab-btn_container">
+                <button onclick="showPanel(0); changeFloatNavLable();">研究成果</button>
+                <button onclick="showPanel(1); changeFloatNavLable();">研究計畫</button>
+                <button onclick="showPanel(2); changeFloatNavLable();">校外專題演講</button>
+                <button onclick="showPanel(3); changeFloatNavLable();">榮譽</button>
+            </div>
+            <!--研究成果-->
+            <div class="tabPanle extra_top_margin">
+                <p class="title2" id="期刊論文">期刊論文</p>
+                <ol id="activity_journals">
+                    <script>List2_Ol_li("../data/activity_journals.txt", "activity_journals");</script>
+                </ol>
+
+                <p class="title2 extra_top_margin " id="研討會論文">研討會論文</p>
+                <ol id="activity_seminar">
+                    <script>List2_Ol_li("../data/activity_seminar.txt", "activity_seminar");</script>
+                </ol>
+
+                <p class="title2 extra_top_margin" id="其他著作">其他著作</p>
+                <ol id="activity_other_thsis">
+                    <script>List2_Ol_li("../data/activity_other_thsis.txt", "activity_other_thsis");</script>
+                </ol>
+
+                <p class="title2 extra_top_margin" id="學位論文">學位論文</p>
+                <ol id="activity_degree_thsis">
+                    <script>List2_Ol_li("../data/activity_degree_thsis.txt", "activity_degree_thsis");</script>
+                </ol>
+
+                <p class="title2 extra_top_margin" id="專利">專利</p>
+                <ol id="activity_patents">
+                    <script>List2_Ol_li("../data/activity_patents.txt", "activity_patents");</script>
+                </ol>
+            </div>
+
+            <!--研究計畫-->
+            <div class="tabPanle extra_top_margin">
+                <p class="title2" id="科技部專題研究計畫">科技部專題研究計畫</p>
+                <table>
+                    <thead>
+                        <th>年度</th>
+                        <th>補助類別</th>
+                        <th>學門分類</th>
+                        <th>計畫名稱</th>
+                        <th>擔任工作</th>
+                    </thead>
+                    <tbody id="activity_project_techResearch">
+                        <script>readTextFile("../data/activity_project_techResearch.txt", "activity_project_techResearch");</script>
+                    </tbody>
+                </table>
+
+                <p class="title2 extra_top_margin" id="科技部大專學生研究計畫">科技部大專學生研究計畫</p>
+                <table>
+                    <thead>
+                        <th>年度</th>
+                        <th>學生姓名</th>
+                        <th>執行機關</th>
+                        <th>內容</th>
+                    </thead>
+                    <tbody id="activity_project_stuResearch">
+                        <script>readTextFile("../data/activity_project_stuResearch.txt", "activity_project_stuResearch");</script>
+                    </tbody>
+                </table>
+
+                <p class="title2 extra_top_margin" id="其他專題研究計畫">其他專題研究計畫</p>
+                <table>
+                    <thead>
+                        <th>序號</th>
+                        <th>年度</th>
+                        <th>計畫名稱</th>
+                        <th>經費來源</th>
+                        <th>類別</th>
+                        <th>擔任工作</th>
+                        <th>狀態</th>
+                    </thead>
+                    <tbody id="activity_project_otherResearch">
+                        <script>readTextFile("../data/activity_project_otherResearch.txt", "activity_project_otherResearch");</script>
+                    </tbody>
+                </table>
+            </div>
+
+            <!--校外專題演講-->
+            <div class="tabPanle extra_top_margin">
+                <p class="title2" id="校外專題演講">校外專題演講</p>
+                <table>
+                    <thead>
+                        <th>序號</th>
+                        <th>年份</th>
+                        <th>主題</th>
+                        <th>邀請單位</th>
+                    </thead>
+                    <tbody id="activity_outschool_speach">
+                        <script>readTextFile("../data/activity_outschool_speach.txt", "activity_outschool_speach");</script>
+                    </tbody>
+                </table>
+            </div>
+
+            <!--榮譽-->
+            <div class="tabPanle extra_top_margin">
+                <p class="title2" id="老師">老師</p>
+                <table>
+                    <thead>
+                        <th>年份</th>
+                        <th>獎項</th>
+                        <th>主題名稱</th>
+                        <th>單位</th>
+                        <th>類別</th>
+                        <th>擔任工作</th>
+                    </thead>
+                    <tbody id="activity_honor_teacher">
+                        <script>readTextFile("../data/activity_honor_teacher.txt", "activity_honor_teacher");</script>
+                    </tbody>
+                </table>
+
+                <p class="title2 extra_top_margin" id="學生">學生</p>
+                <table>
+                    <thead>
+                        <th>年份</th>
+                        <th>獎項</th>
+                        <th>主題名稱</th>
+                        <th>單位</th>
+                        <th>類別</th>
+                        <th>擔任工作</th>
+                    </thead>
+                    <tbody id="activity_honor_student">
+                        <script>readTextFile("../data/activity_honor_student.txt", "activity_honor_student");</script>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/mainScript.js"></script>
+
+</html>

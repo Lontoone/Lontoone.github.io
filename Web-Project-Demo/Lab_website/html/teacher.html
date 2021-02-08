@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>指導老師</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mainStyle.css">
+
+    <script type="text/javascript" src="../js/table2td.js"></script>
+
+</head>
+
+<body>
+    <!--上側導覽開啟按鈕(給行動裝置)-->
+    <input type="checkbox" id="phonenav_ck">
+    <label for="phonenav_ck" id="phonenav_btnlb"></label>
+    <!--左側導覽-->
+    <div class="sidenav">
+        <a href="../html/index.html">
+            <img src="../img/logo.png" alt="電子商務與電子化企業實驗室LOGO圖片">
+        </a>
+        <ol>
+            <li><a href="../html/index.html">實驗室簡介</a></li>
+            <li><a href="../html/teacher.html">指導老師</a></li>
+            <li><a href="../html/members.html">家族成員</a></li>
+            <li><a href="../html/activity.html">學術活動</a></li>
+            <li><a href="../html/sharing.html">資源分享</a></li>
+            <li><a href="../html/contact.html">聯絡我們</a></li>
+        </ol>
+    </div>
+
+    <!--右側浮動導覽-->
+    <nav class="floatNav">
+        <ul>
+            <li><a href="#anchor_top" class="navTab">回最頂</a></li>
+            <li><a href="#anchor_education" class="">學歷</a></li>
+            <li><a href="#anchor_experience" class="">經歷</a></li>
+            <li><a href="#anchor_diploma" class="">專業證書</a></li>
+            <li><a href="#anchor_classes" class="">開設課程</a></li>
+            <li><a href="#anchor_inSchoolService" class="">校內服務</a></li>
+            <li><a href="#anchor_otherSecrvice" class="">校外服務</a></li>
+            <li><a href="#anchor_classProferm" class="">教學表現</a></li>
+        </ul>
+    </nav>
+
+    <!--頁首-->
+    <div class="sub-content extra_top_margin" id="anchor_top">
+        <P class="title2 extra_bolder"><b>指導老師</b></P>
+
+        <img src="../img/teacher_portrait.jpg" alt="連俊瑋博士照片">
+
+
+        <h1>連俊瑋博士 (Dr.Jiumn-Woei Lian)</h1>
+
+        <h2>國立中央大學資訊管理博士</h2>
+
+        <h2>現職：國立台中科技大學 資訊管理系副教授</h2>
+
+        <h2>聯絡地址：40401台中市北區三民路三段129號 </h2>
+    </div>
+
+    <div class="sub-content">
+        <p class="title2" id="anchor_education">學歷</p>
+        <table>
+            <thead>
+                <th>畢/肄業學校</th>
+                <th>國別</th>
+                <th>主修學門系所</th>
+                <th>學位</th>
+                <th>起訖年月(西元年/月)</th>
+            </thead>
+            <tbody id="teacher_education">
+                <script>readTextFile("../data/teacher_education.txt", "teacher_education");</script>
+            </tbody>
+        </table>
+
+        <p class="title2 extra_top_margin" id="anchor_experience">經歷</p>
+        <table>
+            <thead>
+                <th>服務機關</th>
+                <th>服務部門/系所</th>
+                <th>職稱</th>
+                <th>起訖年月(西元年/月)</th>
+            </thead>
+            <tbody id="teacher_experience">
+                <script>readTextFile("../data/teacher_experience.txt", "teacher_experience");</script>
+            </tbody>
+        </table>
+
+        <p class="title2 extra_top_margin" id="anchor_diploma">專業證書</p>
+        <ul style="font-size: 16pt;">
+            <li>2011 企業電子化助理規劃師 (電腦技能基金會EEC 企業電子化人才能力鑑定)</li>
+            <li>2011 企業電子化規劃師-資訊安全與法律 (電腦技能基金會EEC 企業電子化人才能力鑑定)</li>
+            <li>2010 MTA(Microsoft Technology Associate)-Software Development Fundamentals</li>
+            <li>2010 MTA(Microsoft Technology Associate)-Security Fundamentals</li>
+            <li>2010 MTA(Microsoft Technology Associate)-Database Administration Fundamentals</li>
+            <li>2007 初階ERP規劃師(中華企業資源規劃協會)</li>
+            <li>2002 中央大學ERP中心－鼎新流程導向ERP種子師資班結業</li>
+            <li>2001 叡揚資訊－CRM種子師資班結業</li>
+            <li>1998 教育部中等學校教師教育學程結業</li>
+        </ul>
+        <p class="title2 extra_top_margin" id="anchor_classes">開設課程</p>
+        <table>
+            <thead>
+                <th>大學部</th>
+                <th>碩士班</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>電子商務</li>
+                            <li>電子化企業</li>
+                            <li>企業資源規劃</li>
+                            <li>管理資訊系統</li>
+                            <li>資訊管理</li>
+                            <li>實務專題</li>
+                            <li>專案管理</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>電子商務</li>
+                            <li>書報討論</li>
+                            <li>服務科學</li>
+                            <li>企業電子化經營模式分析</li>
+                            <li>虛擬社群管理</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="title2 extra_top_margin" id="anchor_inSchoolService">校內服務</p>
+        <table>
+            <thead>
+                <th>學年度</th>
+                <th>職稱</th>
+            </thead>
+            <tbody id="teacher_inSchoolService">
+                <script>readTextFile("../data/teacher_inSchoolService.txt", "teacher_inSchoolService");</script>
+            </tbody>
+        </table>
+
+        <p class="title2 extra_top_margin" id="anchor_otherSecrvice">校外服務</p>
+        <div class="tab_container">
+            <div class="tab-btn_container">
+                <button onclick="showPanel(0);">論文審查</button>
+                <button onclick="showPanel(1);">參與學術與競賽活動</button>
+            </div>
+            <!--論文審查-->
+            <div class="tabPanle">
+                <table>
+                    <thead>
+                        <th>年分</th>
+                        <th>期刊/單位</th>
+                        <th>類別</th>
+                        <th>擔任工作</th>
+                    </thead>
+                    <tbody id="teacher_otherSecrvice_thsis">
+                        <script>readTextFile("../data/teacher_otherSecrvice_thsis.txt", "teacher_otherSecrvice_thsis");</script>
+                    </tbody>
+                </table>
+            </div>
+
+            <!--參與學術與競賽活動-->
+            <div class="tabPanle">
+                <table>
+                    <thead>
+                        <th>年份</th>
+                        <th>活動</th>
+                        <th>主辦單位</th>
+                        <th>職務</th>
+                    </thead>
+                    <tbody id="teacher_otherSecrvice_compete">
+                        <script>readTextFile("../data/teacher_otherSecrvice_compete.txt", "teacher_otherSecrvice_compete");</script>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <p class="title2 extra_top_margin" id="anchor_classProferm">教學表現</p>
+        <table>
+            <thead>
+                <th>學年度</th>
+                <th>教學表現</th>
+            </thead>
+            <tbody id="teacher_classProferm">
+                <script>readTextFile("../data/teacher_classProferm.txt", "teacher_classProferm");</script>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="../js/mainScript.js"></script>
+
+
+</html>

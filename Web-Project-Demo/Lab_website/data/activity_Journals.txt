@@ -1,0 +1,25 @@
+1	Jiunn-Woei Lian* ,2018, “Why Is Self-Service Technology (SST) Unpopular? Extending the IS Success Model”, ，Library Hi Tech. (Accepted) (SSCI)
+2	許惠媚、連俊瑋、賈佩芳、周惠櫻，2018，“影響病患授權電子病歷交換意願之因素—整合信任與健康信念模式＂，電子商務學報。 (已接受) (TSSCI)
+3	I-Chiu Chang, Chia-Hui Chang,Jiunn-Woei Lian* and Ming-Wei Wang, 2018, “Antecedents and Consequences of Social Networking Site Knowledge Sharing by Seniors: A Social Capital Perspective”, Library Hi Tech. (Accepted) (SSCI)
+4	連俊瑋*、許和莉、許惠媚，2018，“嚴肅遊戲(Serious game)平台與學習風格配適對學習成效影響之研究＂，電子商務學報 。(已接受) (TSSCI)
+5	Yan-Kwang Chen, Chih-Teng Chen, Fei-Rung Chiu and Jiunn-Woei Lian, 2017, “Applying the bootstrap method to newsvendor model incorporating group buying for optimal price discount and order quantity”, Kybernetes,Vol. 46, No. 10, pp. 1692-1705. (SCI)
+6	Jiunn-Woei Lian and David C. Yen*, 2017, “Understanding the Relationships between Online Entrepreneurs’ Personal Innovativeness, Risk Taking and Satisfaction: Comparison of Pure-Play and Click-and-Mortar”, Journal of Organizational Computing and Electronic Commerce, Vol. 27, No. 2, pp. 135-151. (SCI)
+7	Jiunn-Woei Lian*, 2017, “Establishing a cloud computing success model for hospitals in Taiwan”, INQUIRY : The Journal of Health Care Organization, Provision, and Financing, Vol. 54, January, pp. 1-6. (SSCI)
+8	Jiunn-Woei Lianand Chih-Kun Ke*, 2016, “Using a modified ELECTRE method for an agricultural product recommendation service on a mobile device”, Computers and Electrical Engineering, Vol. 56, November, pp. 277-288. (SCIE)
+9	Jiunn-Woei Lian, 2015, “Critical Factors for Cloud Based E-invoice Service Adoption in Taiwan: An Empirical Study”,International Journal of Information Management., Vol. 35, No. 1, pp. 98-109. (SSCI)
+10	Jiunn-Woei Lian and David C. Yen, 2014, “Online Shopping Drivers and Barriers for Older Adults: Age and Gender Differences”, Computers in Human Behavior, Vol. 37, pp. 133-143. (SSCI)
+11	謝俊宏、劉政淮、連俊瑋、柯志坤、陳牧言，2014，“建構以IFRS為基礎之報價與資源管理決策系統”，資訊管理研究， 第十四期，頁1-14。
+12	Jiunn-Woei Lian, David C. Yen and Yen-Ting Wang, 2014, “An Exploratory Study to Understand the Critical Factors Affecting the Decision to Adopt Cloud Computing in Taiwan Hospital”, International Journal of Information Management, Vol. 34, No. 1, pp. 28-36. (SSCI)
+13	Jiunn-Woei Lianand David C. Yen*, 2013, “To Buy or Not to Buy Experience Goods Online: Perspective of Innovation Adoption Barriers”, Computers in Human Behavior, Vol. 29, Issue. 3, pp. 665-672. (SSCI)
+14	連俊瑋*、廖育慈、張謀得、許和莉，2013，“不同商品類型及資訊呈現方式對消費者網路購物意願影響之研究: 認知風險與網站滿意度的觀點”，電子商務研究， 第十一卷，第一期，頁29-52。(2013年年度熱門文章第五名)
+15	Jiunn-Woei Lian*, 2012, “Understanding the Relationships Between Innovation Adoption Barriers and Use Intention Toward Web 2.0 in the Homestay Industry”, Innovation and Supply Chain Management,,Vol. 6, No. 3, pp. 99-104.
+16	Jiunn-Woei Lian*,Tzu-Ming Lin, Jim C. Tam and Jin-Long Zhang, 2012, “Do Cultures Matter: Manifold Evaluation of Multiple Intelligence of IT/IM Students”, The International Journal of Knowledge, Culture and Change Management, Vol. 11, No. 4, pp. 215-230.
+17	Jiunn-Woei Lian*, Hao-Ming Liu and I-Lin Liu, 2012, “Applying Innovation Resistance Theory to Understand User Acceptance of Online Shopping: The Moderating Effect of Different Product Types”, Computer Technology and Application, Vol. 3, No. 2, pp. 188-193.
+18	連俊瑋*、林子銘，2010，09，“創業家社會資本之探索性研究：以資訊軟體產業為例”，創業管理研究，第五卷，第三期，頁1-28。
+19	Jiunn-Woei Lian*and Tzu-Ming Lin, 2008, “Effects of Consumer Characteristics on Their Acceptance of Online Shopping: Comparisons Among Different Product Types”, Computers in Human Behavior, Vol. 24, Issue. 1, pp. 48-65.(SSCI)
+20	林子銘*、莊敬民、林哲宇、連俊瑋、施永裕，2007，01，“資訊社會對生活品質之影響：從科技與文化的觀點探討”，考銓季刊，第四十九期，數位學習與公務人員培訓，頁51-68。
+21	I-Chiu Chang, Hsin-Ginn Hwang, David C. Yen* andJiunn-Woei Lian, 2006, “Critical Factors for Adopting PACS in Taiwan: Views of Radiology Department Directors”, Decision Support Systems, Vol. 42, No. 2, pp. 1042-1053.(SSCI)
+22	連俊瑋*、林奎利、郭正宗，2005，03，“從使用者的觀點探討醫院PACS的使用與效益：兩階段的研究”，資訊管理學報，第十二卷，專刊期，頁1-26。(TSSCI)
+23	林子銘*、李東峰、連俊瑋，2002，11， “台灣人在不確定環境下倫理決策行為研究”，資訊管理研究，第四卷，第三期，頁163-204。
+24	林子銘*連俊瑋，2002，2， “知識管理：台灣企業二十一世紀生存必要之道”，資訊管理學報，第九卷，專刊期，頁117-142。(TSSCI)
+25	黃興進*、彭振興、連俊瑋，2001，1， “醫療單位採用醫學影像儲傳系統關鍵因素之研究－以台中榮民總醫院為例”，資訊管理學報，第七卷，第二期，頁39-62。(TSSCI)

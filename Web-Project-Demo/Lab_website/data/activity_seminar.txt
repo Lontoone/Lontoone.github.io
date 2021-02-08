@@ -1,0 +1,67 @@
+Li-Fang Shen,Jiunn-Woei Lian , Chih-Teng Chen and Hung-Ming Chen, 2019, 07, “Does smart locker workable? Understand user acceptance of Blockchain base smart locker,” International Conference on Innovative Computing and Management Science(ICMS 2019) , Osaka, Japan.
+Jiunn-Woei Lian and Jung-Jung Chen, 2019, 07, “Explore the Critical Factors of Younger Generation to Use Wearable Devices Continuously,” International Conference on Innovative Computing and Management Science(ICMS 2019) , Osaka, Japan.
+Jiunn-Woei Lian and Ji Li, 2019, 07, “Understand the Role of Trust in the Diffusion of Mobile Payment Service,” Pacific Asia Conference on Information Systems(PACIS 2019) , Xi'an, China.
+Jiunn-Woei Lian ,Ji Li, and Yi-Zhen Chen, 2018, 01, “Evaluate Serious Games of Non-Profit Organizations in Taiwan,” International Conference on Innovation and Management (IAM 2018 Winter) , Fukuoka, Japan.
+Ji Li, Jiunn-Woei Lian ,and Mianxiong Dong, 2018, 01, “Understanding the Formation of Mobile Payment Trust: A Review,” International Conference on Innovation and Management (IAM 2018 Winter) , Fukuoka, Japan.
+Jiunn-Woei Lian , 2017, 07, “Understanding the Motivations of Online Community Users - A Comparison between Younger and Older People,” HCI International 2017 Vancouver, Canada. (EI)
+許惠媚、賈佩芳、連俊瑋 、周惠櫻， 2017， 06，“影響病患授權電子病歷交換意願之因素”， 第十二屆國際健康資訊管理研討會 ，新竹，台灣。(大會最佳論文)
+陳志騰、洪筠緯、連俊瑋 、顏憶茹，2016，12，“超市導入自助結帳個案研究”， 第二十二屆資訊管理暨實務研討會 ，台南，台灣。
+連俊瑋 、柯奕佑、唐敏貞，2016 ，06，“電子化政府產銷履歷持續使用意圖之研究-生產者的觀點＂，2016服務科學研究論壇 ，台北，台灣。
+許智棋、張育宸、張家銘、謝宗哲、連俊瑋 ，2015，11，“結合環境感測與穿戴裝置之睡眠品質管控系統＂，第二十一屆國際資訊管理暨實務研討會 ，台中，台灣。
+Jiunn-Woei Lian, 2015, 08, “Perceived barriers for older adults buying online: Comparisons between different business models,” HCI International 2015, Los Angeles, CA, USA.Lecture Notes in Computer Science 9193, pp. 347-353. (EI)
+Jiunn-Woei Lian, 2015, 07, “Investigating User Satisfaction and Use Intention Toward Serious Games From a Hedonic Perspective: A Comparison of Different Platforms,” International Conference on Innovation and Management (IAM 2015), Sapporo, Japan.
+連俊瑋、許和莉、許惠媚，2015，06，“學習風格與學習平台配適對嚴肅遊戲(Serious game)成效之影響：個人電腦與智慧型手機之比較”， 2015服務科學研究論壇，台中，台灣。
+Jiunn-Woei Lian and Ho-Li Hsu, 2014, 10, “Mobile Serious Games Development and User Verification,” The 3rd International Conference on Engineering and Technology Innovation 2014 (ICETI2014), Kenting, Taiwan.
+Jiunn-Woei Lian and Ho-Li Hsu, 2014, 07, “Understanding User Acceptance of Mobile Serious Game: An Empirical Study,” The 19th Asia-Pacific Decision Sciences Institute Conference (APDSI 2014), Yokohama, Japan.
+柯奕佑、連俊瑋，2013，12，“使用者線上購物意見分享分類機制之建構－以A公司為例”， 第十九屆資訊管理暨實務研討會，台中，台灣。
+Jiunn-Woei Lian, Ho-Li Hsu, and Yu-Wen Chou, 2013, 09, “Design, Develop and Evaluate a Mobile Serious Game,” NETs2013 International Conference on Internet Studies, Hong Kong, China.
+謝俊宏、劉政淮、連俊瑋、柯志坤、陳牧言，2013，05，“建構以IFRS為基礎的預算分析系統”， 臺灣商管與資訊研討會，台中，台灣。
+謝俊宏、劉政淮、柯志坤、連俊瑋、陳牧言，2013，05，“基於國際會計處理準則建置適用於台灣企業財務決策分析系統”， 臺灣商管與資訊研討會，台中，台灣。(大會佳作論文)
+謝俊宏、連俊瑋、柯志坤、陳牧言、何亦羚，2012，11，“多維度企業雲端銷售分析系統之建構”， 2012民生電子研討會，雲林，台灣。
+謝俊宏、柯志坤、連俊瑋、陳牧言、劉家裕，2012，11，“推行IFRS財務報表準則效益評估分析-以台灣產業結構為例”， 2012民生電子研討會，雲林，台灣。
+謝俊宏、柯志坤、陳牧言、連俊瑋、林正華、任昶諭，2012，11，“基於國際財務報導準則建置適用於台灣企業之財務決策轉換分析網路服務應用平台”， 2012民生電子研討會，雲林，台灣。
+Yen-Ting Wang and Jiunn-Woei Lian, 2012, 03-04, “Critical Factors for Adopting Cloud Computing in Taiwan Hospital: an Integrated Conceptual Model,” 2012 International Symposium on Business and Management, Hong Kong, China.
+Jiunn-Woei Lian et al., 2012, 03-04, “Why Consumers Shop Online Rarely? A Case Study,” e-CASE & e-Tech 2012, Hong Kong, China.
+Jiunn-Woei Lian, 2011, 12, “Understanding the Relationships Between Innovation Adoption Barriers and Use Intention Toward Web 2.0 in the Homestay Industry,” 2011 Asian Conference of Management Science & Applications (ACMSA 2011), Sanya, China.
+連俊瑋，2011，12，“Understanding Determinants of Web 2.0 Adoption from Different Perspectives: Applications in the Homestay industry in Taiwan”， 科技部管一與管二學門100年聯合成果發表會，高雄，台灣。
+連俊瑋、廖育慈、張謀得，2011，11，“網路購物商品資訊呈現方式對消費者認知風險與滿意度影響之研究：不同商品類型比較”， 2011年民生電子研討會，台中，台灣。
+林子銘、Jim C. Tam、張金隆、連俊瑋，2011，11，“單元文化主義轉變為多元文化主義的全球思維與文化智商”， 2011管理理論與實務研討會，上海，中國。
+連俊瑋、林子銘、張金隆、Jim C. Tam，2011，07，“信息管理工作人員與信息管理系學生的情緒智能、社交智能與文化智能構面變數比較研究－大陸、加拿大與台灣”， 第十三屆全國計算機模擬與信息技術學術會議，南昌，中國。(優秀論文二等獎)
+Jiunn-Woei Lian, Tzu-Ming Lin, Jim C. Tam, and Jin-Long Zhang, 2011, 06, “Do Cultures Matter: Manifold Evaluation of Multiple Intelligence of IT/IM Students,” The Eleventh International Conference on Management, Madrid, Spain.
+許昌齡、連俊瑋、褚幼鴻，2011，01，“建構與實作社會網路的旅館電子市集之企業架構：小型旅館與民宿之個案研究”， 2011年國際ERP學術及實務研討會，台北，台灣。
+Jiunn-Woei Lian, I-Lin Liu ,and Hao-Ming Liu, 2011, 01, “Applying Innovation Resistance Theory to Understand User Acceptance of B2C Electronic Commerce: The Moderating Effect of Different Product Types,” 2011 International Conference on e-Commerce, e-Administration, e-Society, e-Education, and e-Technology (e-CASE & e-Tech 2011), Tokyo, Japan. (Distinguished Paper Award)
+Jiunn-Woei Lian and Hao-Ming Liu, 2010, 12, “Understanding the Barrier of Elder’s Adoption of B2C Online Commerce: Comparison Between Different Product Types and Ages,” The 10th International Conference on Electronic Business (ICEB 2010), Shanghai, China.
+連俊瑋、劉濠銘，2010，08，“年長者B2C電子商務使用行為研究”， 第十六屆海峽兩岸信息管理發展與策略學術研討會，香港。
+Yu-Chi Liao、Jiunn-Woei Lian、Francis Mou-Te Chang, 2010,08, “The Impact of 3D Product Presentation on Consumer’s Purchase Intention in E-Commence: Comparison by Different Types of Product,” The 9th International Conference on Information and Management Sciences, Urumchi & Kashi, China.
+連俊瑋，2010，05，“網路創業家滿意度研究：個人特質與創業類型的觀點”， 第二十一屆國際資訊管理學術研討會，台南，台灣。
+Jiunn-Woei Lian and Hao-Ming Liu, 2010, 05, “Applying Innovation Resistance Theory to Understand User Acceptance of Online Shopping: Comparison among Different Product Types,” The 21th International Conference on Information Management, Tainan, Taiwan.
+許昌齡、連俊瑋、顧景昇，2009，11，“建構Web 2.0線上訂房電子市集系統架構：農業旅館與民宿之個案研究”， 2009國際農業資訊科技應用論壇，台北，台灣。
+連俊瑋，林子銘，2009，10， “多元智能及社會資本認知對創業決策的影響-以資訊軟體產業為例”， 第四屆海峽兩岸管理科學論壇及第二屆兩岸企業家精神學術研討會，武漢，中國。
+連俊瑋，2009，08，“網路創業家個人特質與創業策略對創業滿意度的影響：「個人與創業家精神配適(Person-Entrepreneurship Fit)」的觀點”， 第十五屆海峽兩岸資訊管理發展與策略學術研討會，上海，中國。(NSC 97-2410-H-025 -011)
+Jiunn-Woei Lian, 2008, 07, “Explore Job and Life Satisfaction among the Employees of Information Industry from the Aspect of Interpersonal Interaction: An Integration of the Viewpoints of Emotional Intelligence and Social Capital,” 13th Asian-Pacific Decision Sciences Conference 2008, Brisbane, Australia.
+楊婉華、朱大維、許偉閔、連俊瑋、張俊梁，2007，11，“評估應用行動通訊建置患者檢驗危險值之通報系統”， 第三十四屆國軍軍醫研討會，台北，台灣。
+Jiunn-Woei Lian, Tzu-Ming Lin and Hsin-Kuan Wu, 2007, 07, “Job Stress, Job Satisfaction and Life Satisfaction Between Managerial and Technical IS Personnel,” International Conference on Business and Information, Tokyo, Japan. (ISSN 1729-9322, 2007)
+連俊瑋、林子銘，2007，05，“資訊軟體產業創業家社會資本的建構與測量-創業家與資訊從業人員之比較”， 第十八屆國際資訊管理學術研討會，台北，台灣。
+林子銘、莊敬民、連俊瑋、施永裕，2006，05，“國家文化與資訊社會化對財富與生活滿意度的影響”， 第十七屆國際資訊管理學術研討會，高雄，台灣。
+連俊瑋、林子銘，2006，04，“資訊軟體產業創業家社會資本研究”， 第八屆全國資管博士生學術交流研討會，苗栗，台灣。
+林子銘、連俊瑋，2006，04，“富國之道”， 信息時代的企業國際生產力競爭，浙江杭州，中國。
+林子銘、吳信寬、施永裕、連俊瑋，2005，12，“資訊從業人員工作滿意與生活滿意研究－從工作特性、工作壓力、決策風格與工作適配性探討”， 第十一屆資訊管理暨實務研討會，台北，台灣。
+Allen J. W. Lian, Liao Min Shian and Kuo Jiun Ting, 2005, 06, “Relationships Between Web Service Quality and User Satisfaction with Hospital Online Register Systems,” Asia-Pacific Decision Sciences Institute (APDSI) 2005, Taipei, Taiwan.
+Allen J. W. Lian and Jim T. M. Lin, 2005, 05, “Relationships Between Consumer Characteristics and Their Attitudes Toward e-shopping: Comparisons Among Different Product Types,” (ICIM2005) International Conference on Information Management (第十六屆國際資訊管理學術研討會), Taipei, Taiwan.
+Allen J. W. Lian and Jim T. M. Lin, 2005, 05, “User Acceptance of On-Line Shopping: Relationships Between Individual Characteristics and Product Type,” 5th Annual Hawaii International Conference on Business, Hawaii, U.S.A.
+連俊瑋、林子銘，2004，12，“電子商務時代資訊管理人員知識與技能研究：實務需求與畢業生能力的比較”， 2004國際資訊管理暨電子商務經營管理研討會，嘉義，台灣。
+連俊瑋、林奎利、郭正宗，2004，10，“從使用者的觀點探討醫院PACS的使用與效益：兩階段的研究”， 2004國際醫學資訊研討會，嘉義，台灣，頁99-104。
+連俊瑋，2004，03，“青少年網路消費族群與非網路消費族群之個人特質比較研究”， 2004電子商務與數位生活研討會，台北，台灣。
+Allen J. W. Lian and Jim T. M. Lin, 2002, 12, “Critical Successful Factors of ERP Implementation: A Review,” International Conference on Electronic Business 2002, Taipei, Taiwan.
+連俊瑋、林映君、林子銘，2002，11， “我國人力銀行網站經營策略之研究”， 第八屆資訊管理研究暨實務研討會，高雄，台灣，頁627-634。
+林子銘、連俊瑋、陳治淵，2002，6， “高風險高報酬環境下51%勝率哲學”，2002中華決策科學學會年會暨論文研討會，台北，台灣。
+林子銘、連俊瑋，2002，4， “台灣企業對資訊管理人員的能力需求研究：管理知識與資訊技能的平衡點”，海峽兩岸管理資訊系統接軌暨第四屆資訊管理博士生論文研討會，上海，中國，頁64-71。
+Jim T. M. Lin, Michael T. F. Lee, Allen J. W. Lian and Steven Y. Y. Shih, 2001, 12, “The Invisible Platform of E-Business: Trust,” The First International Conference on Electronic Business, Hong Kong.
+連俊瑋，2001，6，“組織結構與資訊系統架構對企業知識管理專案實施成效之影響”，2001年資訊管理學術暨實務研討會，苗栗，台灣，頁355-362。
+黃興進、連俊瑋、彭振興，2001，5，“國內區域級以上醫院制定「醫學影像儲傳系統」發展策略之考量因素研究”，第十二屆國際資訊管理學術研討會，台北，台灣。
+林子銘、連俊瑋，2001，4，“知識管理：台灣企業二十一世紀生存必要之道”，二十一世紀台灣湧現中的資訊管理議題專家研討會，桃園，台灣，頁10-30。
+林子銘、連俊瑋，2001，3，“給我五百萬，否則我將揭發你的醫療記錄－台灣醫療資訊隱私權危機”，資訊科技與電子商務在醫療產業之應用研討會，嘉義，台灣，頁17-24。
+黃興進、彭振興、連俊瑋，2000，10，“國內發展PACS之回顧與展望”，2000年國際醫療資訊研討會，台北，台灣，頁170-176。
+黃興進、彭振興、連俊瑋，2000，6，“建構PACS流程標準化模式之探討”，第二屆亞太管理學術研討會，台南，台灣。
+黃興進、連俊瑋，1999，11，“醫療單位導入群組軟體架構之探討”，第一屆永續發展管理研討會，屏東，台灣，頁436-422。
+王興洋、黃興進、連俊瑋，1999，6，“勤務指揮管制資訊系統架構之探討”，第十屆國際資訊管理學術研討會，桃園，台灣，頁781-788。
