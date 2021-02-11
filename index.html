@@ -1,69 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <head> </head>
 
-<head>
-</head>
-
-<body>
-    <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-    <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python test.py');">
-    <input type="button" id='script' name="upload" value=" TEST Run Script 222" onclick="goPython2()">
+  <body>
     <script>
-        function goPython() {
-            $.ajax({
-                //url: "test.py"
-                url: "test.py"
-            }).done(function (out) {
-                alert('finished python script ' + out);;
-                //console.log();
-
-            });
-        }
-
-        function goPython2() {
-            console.log("HI");
-            $.ajax({
-                url: "https://forum.gamer.com.tw/C.php?bsn=60609&snA=3",
-                async: false,
-                success: function (res, status, xhr) {
-                    console.log(res);
-                    alert(xhr.getResponseHeader("myHeader"));
-                }
-            }).done(function (data) {
-                console.log(data);
-            });
-        }
-
-        var url = 'https://forum.gamer.com.tw/C.php?bsn=60609&snA=3';
-
-
-        $.getJSON(url, function (data) {
-            $.each(data.query.results.a, function () {
-                $('body').append('<div><a href="http://stackoverflow.com' + this.href + '">' + this.content + '</a></div>')
-            })
-        })
-
-        $.ajax({
-            type: "GET",
-            url: "https://m.gamer.com.tw/ajax/MB_homeCreation_2k14.php?owner=news2000tw",
-            beforeSend: function (xhr) {
-                xhr.setRequestHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0");
-            }
-        })
-            .done(function (data) {
-                if (console && console.log) {
-                    console.log("Sample of data:", data.slice(0, 100));
-                }
-            });
+      window.location = "../html/index.html";
     </script>
-
-    <iframe height="400px" width="100%" src="https://repl.it/@LontooneChing/testpy?lite=true" scrolling="no"
-        frameborder="no" allowtransparency="true" allowfullscreen="true"
-        sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-</body>
-
+  </body>
 </html>
