@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+
+.sideNav-left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #414141;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    
+}
