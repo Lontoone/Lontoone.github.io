@@ -3,25 +3,34 @@ body {
   background-color: #efefef;
   line-height: 25px;
   letter-spacing: 3px;
-  height:100%; 
+  min-height: 100%;
 }
 
 /*中間的內容*/
 #middleContent {
   right: 5px;
   margin: 50px auto;
-  
+
   width: 70%;
-  
+
   height: 100%;
 
   display: grid;
-  grid-template-rows: 300px auto ;
+  grid-template-rows: 300px auto;
 
   padding-bottom: 50px;
 }
-footer{
-    background-color: aqua;
+footer {
+  background-color: #e3e3e3;
+  position: absolute;
+  height: 5%;
+  width: 100%;
+  margin: auto auto;
+  text-align: center;
+}
+footer p {
+  font-size: 10pt;
+  color: #b1afaf;
 }
 h1 {
   font-size: 72pt;
@@ -39,7 +48,11 @@ h2 {
   width: 90%;
   margin: auto auto;
 }
-
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sideNav-left {
   position: fixed;
   top: 0;
@@ -86,10 +99,9 @@ h2 {
   border-radius: 50%;
 }
 
-#bioTable td{
-    
-    padding: 15px;
+#bioTable td {
+  padding: 15px;
 }
-#bioTable td:first-child{
-    border-right: 5px solid #707070;
+#bioTable td:first-child {
+  border-right: 5px solid #707070;
 }

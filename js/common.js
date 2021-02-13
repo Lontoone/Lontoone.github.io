@@ -23,5 +23,6 @@ getBrowserLanguage();
 function getBrowserLanguage() {
   LANG = window.navigator.userLanguage || window.navigator.language;
   LANG=LANG.substring(0,2);
+  //TODO:若無該語系語言包則預設英文
   console.log("user language " + LANG);
 }

@@ -12,7 +12,7 @@
     <div class="wrapper">
       <!--左側邊導覽-->
       <div class="sideNav-left">
-        <a href="#">HOME</a>
+        <a href="../html/index.html">HOME</a>
         <a href="#">GAME</a>
         <a href="#">BLOG</a>
         <a href="#">GitHub</a>
@@ -23,24 +23,24 @@
         <!--標題內容-->
         <div class="">
           <h1>Lontoone</h1>
-          <p class="sub-text">
-            內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+          <p class="sub-text" id="page-intro">
+            <script type="text/javascript">
+              readPlainText("self-intro.txt", "page-intro");
+            </script>
           </p>
         </div>
 
         <!--經歷-->
         <div class="full90p">
-          <h2>經歷</h2>
+          <div>
+            <h2>經歷 BIO</h2>
+            
+          </div>
           <hr />
- 
+
           <table id="bioTable">
             <tbody>
-              <tr>
-                <td>2020/01/01</td>
-                <td>
-                  內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
-                </td>
-              </tr>
+              <!--經歷內文-->
               <script>
                 readTextFile("bio.txt", "bioTable");
               </script>
@@ -51,15 +51,23 @@
       <!--右側邊導覽-->
       <div class="sideNav-right">
         <div class="grayCard">
+          <!--頭貼-->
           <img src="../img/blue_head.jpg" alt="" class="headShot" />
+
           <hr />
-          <p>
-            內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+
+          <!--自我介紹-->
+          <p id="self-intro">
+            <script type="text/javascript">
+              readPlainText("self-intro.txt", "self-intro");
+            </script>
           </p>
         </div>
       </div>
     </div>
 
-    <footer>123</footer>
+    <footer class="center">
+      <p>website created by: Lontoone</p>
+    </footer>
   </body>
 </html>
