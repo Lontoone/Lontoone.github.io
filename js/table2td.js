@@ -8,7 +8,11 @@ var data_s;
 //function table2td(file, tbodyID) {
 function readTextFile(file, tbodyID) {
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
+
+    var path = "../data/"+LANG+"/"+file;
+
+    //rawFile.open("GET", file, false);
+    rawFile.open("GET", path, false);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {

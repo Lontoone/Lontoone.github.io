@@ -1,4 +1,3 @@
-
 function setHtmlHeader() {
   var s = "../html/header_templet.txt";
 
@@ -16,4 +15,13 @@ function setHtmlHeader() {
     }
   };
   rawFile.send(null);
+}
+
+var LANG;
+getBrowserLanguage();
+//設定使用者browser語言
+function getBrowserLanguage() {
+  LANG = window.navigator.userLanguage || window.navigator.language;
+  LANG=LANG.substring(0,2);
+  console.log("user language " + LANG);
 }
