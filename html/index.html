@@ -1,28 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="../js/common.js" type="text/javascript">
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script>
       setHtmlHeader();
     </script>
+    <script src="../js/table2td.js" type="text/javascript"></script>
   </head>
 
   <body>
     <div class="wrapper">
       <!--左側邊導覽-->
       <div class="sideNav-left">
-          <a href="#">HOME</a>
-          <a href="#">BLOG</a>
-          <a href="#">GAME</a>
-          <a href="#">GitHub</a>
+        <a href="#">HOME</a>
+        <a href="#">GAME</a>
+        <a href="#">BLOG</a>
+        <a href="#">GitHub</a>
       </div>
-
-      <!--右側邊導覽-->
-      <div class="sideNav-right"></div>
 
       <!--中間內容區塊-->
       <div id="middleContent">
+        <!--標題內容-->
+        <div class="">
+          <h1>Lontoone</h1>
+          <p class="sub-text">
+            內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+          </p>
+        </div>
 
+        <!--經歷-->
+        <div class="full90p">
+          <h2>經歷</h2>
+          <hr />
+
+          <table id="bioTable">
+            <tbody>
+              <tr>
+                <td>2020/01/01</td>
+                <td>
+                  內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+                </td>
+              </tr>
+              <script>
+                readTextFile("../data/bio.txt", "bioTable");
+              </script>
+            </tbody>
+          </table>
+        </div>
       </div>
+      <!--右側邊導覽-->
+      <div class="sideNav-right">
+        <div class="grayCard">
+          <img src="../img/blue_head.jpg" alt="" class="headShot" />
+          <hr />
+          <p>
+            內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+          </p>
+        </div>
+      </div>
+      <script type="text/javascript">
+        var language =
+          window.navigator.userLanguage || window.navigator.language;
+        alert(language);
+      </script>
     </div>
+
+    <footer>123</footer>
   </body>
 </html>

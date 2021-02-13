@@ -1,16 +1,95 @@
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
+  background-color: #efefef;
+  line-height: 25px;
+  letter-spacing: 3px;
+  height:100%; 
 }
 
-.sideNav-left{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 300px;
-    background-color: #414141;
-    z-index: 1;
-    padding-top: 100px;
-    overflow-x: hidden;
+/*中間的內容*/
+#middleContent {
+  right: 5px;
+  margin: 50px auto;
+  
+  width: 70%;
+  
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 300px auto ;
+
+  padding-bottom: 50px;
+}
+footer{
+    background-color: aqua;
+}
+h1 {
+  font-size: 72pt;
+  margin: 50px;
+}
+h2 {
+  font-size: 20pt;
+}
+.sub-text {
+  text-indent: 7em;
+}
+
+.full90p {
+  height: 90%;
+  width: 90%;
+  margin: auto auto;
+}
+
+.sideNav-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #414141;
+  z-index: 1;
+  padding-top: 100px;
+  overflow-x: hidden;
+}
+.sideNav-left a {
+  padding: 8px 8px 8px 64px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sideNav-left a:hover {
+  color: gray;
+}
+
+.sideNav-right {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 200px;
+  height: auto;
+  background-color: antiquewhite;
+}
+.grayCard {
+  width: 90%;
+  height: 90%;
+  margin: auto auto;
+  padding: 25px;
+  background-color: #e3e3e3;
+  display: grid;
+  grid-template-rows: 170px 35px 200px;
+}
+.sideNav-right img {
+  margin: auto auto;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#bioTable td{
     
+    padding: 15px;
+}
+#bioTable td:first-child{
+    border-right: 5px solid #707070;
 }

@@ -1,6 +1,7 @@
+
 function setHtmlHeader() {
   var s = "../html/header_templet.txt";
-  
+
   var rawFile = new XMLHttpRequest();
   rawFile.open("GET", s, false);
   rawFile.onreadystatechange = function () {
