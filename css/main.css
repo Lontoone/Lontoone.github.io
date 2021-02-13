@@ -5,8 +5,18 @@ body {
   letter-spacing: 3px;
   min-height: 100%;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
 
-/*中間的內容*/
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/*主內容*/
 #middleContent {
   right: 5px;
   margin: 50px auto;
@@ -22,9 +32,10 @@ body {
 }
 footer {
   background-color: #e3e3e3;
-  position: absolute;
+  position: fixed;
   height: 5%;
   width: 100%;
+  bottom: 0px;
   margin: auto auto;
   text-align: center;
 }
@@ -34,7 +45,6 @@ footer p {
 }
 h1 {
   font-size: 72pt;
-  margin: 50px;
 }
 h2 {
   font-size: 20pt;
@@ -84,6 +94,8 @@ h2 {
   height: auto;
   background-color: antiquewhite;
 }
+
+/* 右邊- 自介小卡 */
 .grayCard {
   width: 90%;
   height: 90%;
@@ -91,7 +103,7 @@ h2 {
   padding: 25px;
   background-color: #e3e3e3;
   display: grid;
-  grid-template-rows: 170px 35px 200px;
+  grid-template-rows: 170px 35px auto;
 }
 .sideNav-right img {
   margin: auto auto;
@@ -99,9 +111,60 @@ h2 {
   border-radius: 50%;
 }
 
+/*ifame*/
+iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  overflow: hidden;
+}
+
+/*HOME- 自我介紹*/
+#home-page-top {
+  margin: 60px;
+}
+#page-intro {
+  margin-top: 70px;
+  margin-left: 120px;
+}
+
+/*經歷 表格*/
+#bioTable {
+  margin-top: 50px;
+}
 #bioTable td {
   padding: 15px;
 }
 #bioTable td:first-child {
   border-right: 5px solid #707070;
+}
+
+/*巴哈姆特-作品頁面*/
+#bahamut-profolio-list {
+  border-left: 5px solid #707070;
+}
+#bahamut-profolio-list ul {
+  margin-left: 50px;
+}
+
+.article-col {
+  max-height: 250px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 1%;
+
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 350px auto;
+  grid-template-rows: 50px auto;
+
+  border: 1px #70707080;
+}
+.article-thumbnail {
+  grid-row: 1/3;
+  max-height: 90%;
+  max-width: 90%;
+  
 }

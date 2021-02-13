@@ -101,7 +101,7 @@ def GetGamerBlogData():
 
     # 存成json文件
     
-    with open('twitterData.json', 'w') as outfile:
+    with open('bahamuteArticleData.json', 'w') as outfile:
         json.dump( [ob.ToDict() for ob in gamer_datas],outfile)
     
     

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+      setHtmlHeader();
+    </script>
+    <script src="../js/table2td.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div class="wrapper noScrollBar">
+      <!--標題內容-->
+      <div id="home-page-top">
+        <h1>Lontoone</h1>
+        <p id="page-intro">
+          <script type="text/javascript">
+            readPlainText("self-intro.txt", "page-intro");
+          </script>
+        </p>
+      </div>
+
+      <!--經歷-->
+      <div class="full90p">
+        <div>
+          <h2>經歷 BIO</h2>
+        </div>
+        <hr />
+        <table id="bioTable">
+          <tbody>
+            <!--經歷內文-->
+            <script>
+              readTextFile("bio.txt", "bioTable");
+            </script>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
