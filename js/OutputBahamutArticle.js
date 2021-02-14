@@ -21,8 +21,9 @@ function OutputBahamuteArticleList() {
           //console.log($("#bahamut-profolio-list ul"));
           //設定
           $(unit).find("h2").html(obj.title_text);
-          $(unit).find(".sub-text").html("內容");
+          $(unit).find(".sub-text").html("more...");
           $(unit).find("img").attr("src", obj.thumbnail_url);
+          $(unit).find("a").attr("href",obj.article_url)
 
           $("#bahamut-profolio-list ul").append(unit);
         });

@@ -1,10 +1,12 @@
-2021/2/13	WebSite Opened!
+2021/2/13	網站開幕!(無聊寫一個)
 2020	Winner of Herb Alpert School of Music in University of California, Los Angeles Make A Scene Game jam.
-2020	HM at 大專校院資訊應用服務創新競賽-InnoServe 宅妝AR/VR創新應用組
-2020	HM at ITSA全國大專校院程式設計極客挑戰賽- ITSA Geeks Collegiate Programming Contest.
-2020	HM at 資訊教育與科技應用研討會 - Mobile Application Dev Contest
-2020	HM at 資訊教育與科技應用研討會 - Digital content design Dev Contest
-2019	#1 at 創想星球資訊科技創意⼤賽 - Digital Game Dev Contest
-2019	#1 at 極客松 創新創意競賽 - 2Days Digital Game Jam Contest
-2019 	#2 at 瑪麗MuMu盃 - App for Mentally disabled students Dev Contest
-2019	#3 at 文化數位創意加值競賽 - AR/VR Educational Game Dev Contest
+2020	TOEIC 895
+2020	JLPT N2
+2020	[佳作] 大專校院資訊應用服務創新競賽-InnoServe 宅妝AR/VR創新應用組
+2020	[佳作] ITSA全國大專校院程式設計極客挑戰賽- ITSA Geeks Collegiate Programming Contest.
+2020	[佳作] 資訊教育與科技應用研討會 - Mobile Application Dev Contest
+2020	[佳作] 資訊教育與科技應用研討會 - Digital content design Dev Contest
+2019	[第一名] 創想星球資訊科技創意⼤賽 - Digital Game Dev Contest
+2019	[第一名] 極客松 創新創意競賽 - 2Days Digital Game Jam Contest
+2019 	[第二名] 瑪麗MuMu盃 - App for Mentally disabled students Dev Contest
+2019	[第三名] 文化數位創意加值競賽 - AR/VR Educational Game Dev Contest
