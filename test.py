@@ -44,7 +44,6 @@ def GetHTMLContent(url):
 
     # 解析HTML
     root = bs4.BeautifulSoup(data, "html.parser")
-    #titles = root.find_all("div", class_="home_list")
     return root
 
 #取得巴哈創作小屋資料並寫成json檔案
