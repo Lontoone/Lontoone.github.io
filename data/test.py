@@ -8,6 +8,7 @@ from enum import Enum
 import datetime
 import re  # regex
 
+#123 UPDATE TEST 
 
 class eArticleType(Enum):  # 文章類型
     game = 'GAME'  # FOR GameJolt
