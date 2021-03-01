@@ -8,33 +8,7 @@
     <link rel="stylesheet" href="TemplateData/style.css" />
   </head>
   <body>
-    <!--FB Script-->
-
-    <script>
-      window.fbAsyncInit = function () {
-        FB.init({
-          appId: "281143746710814",
-          cookie: true,
-          xfbml: true,
-          version: "v10.0",
-        });
-
-        FB.AppEvents.logPageView();
-      };
-
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/all.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
-    </script>
-    <!--*********-->
+  
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
