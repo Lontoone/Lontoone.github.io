@@ -15,8 +15,8 @@ body {
 }
 #unity-container {
     width: 100%;
-    /*height: 100%;  GEO修改*/
-    height: 46vw;
+    height: 100%; 
+    /*height: 46vw; GEO修改*/
 }
 #unity-canvas {
     width: 100%;
