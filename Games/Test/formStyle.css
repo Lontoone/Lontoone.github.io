@@ -54,10 +54,10 @@ label{
 
 
 /*vvvvvvvv底部白框樣式vvvvvvvv*/
-@media screen and (min-width:400px) {
+@media screen and (min-width:300px) {
     .formContainer{
-        width: 300px;
-        height: 90vh;
+        width: 270px;
+        height: 650px;
     }
        
     .blockFooter{
