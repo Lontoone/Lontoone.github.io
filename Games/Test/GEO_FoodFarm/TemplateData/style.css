@@ -116,13 +116,11 @@ body {
       top: 100%;
       left: 0;
     }
-
 }
+
 @media screen and (min-width: 320px)and (orientation: landscape){
 
 
     #unity-container {
-        height: 70%;
-        margin-top: 25px;
     }
 }
