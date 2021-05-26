@@ -1,0 +1,83 @@
+.title{
+    text-align: center;
+    margin: auto 0;
+    font-size: large;
+}
+.formContainer{
+    margin-top: 10vh;
+    margin: 10% auto;
+    /*text-align: center;*/
+    width: 25vw;
+    height: 70vh;
+    display: grid;
+
+    grid-template-rows: 
+    10%
+    30px 50px
+    30px 50px
+    30px 50px
+    30px 50px
+     auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+}
+.formContainer *{
+    padding:5px 20px ;
+}
+label{
+    text-align: left;
+}
+
+.fillinBlock{
+    padding-top: 200px;
+    
+}
+
+.fillinItems p{
+    font-size: 14pt;
+    width: 100px;
+    height: 20px;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+
+.blockFooter{
+    display: grid;
+    font-size: 12px;
+    grid-template-columns: 80px 150px auto;
+}
+
+.fillinItems input:not(.roundBtn){
+    height: 50%;
+}
+
+
+
+/*vvvvvvvv底部白框樣式vvvvvvvv*/
+@media screen and (min-width:300px) {
+    .formContainer{
+        width: 270px;
+        height: 650px;
+    }
+       
+    .blockFooter{
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: 80px auto;
+    }
+    
+    .blockFooter input{
+        margin: 0 auto;    
+    }
+}@media screen  and (orientation: landscape){
+    .formContainer{
+        width: 700px;
+        height: 700px;
+
+    }
+    .blockFooter{
+        grid-template-columns: 80px 100px auto;
+    }
+
+}
+/*^^^^^^^^底部白框樣式^^^^^^^^*/
