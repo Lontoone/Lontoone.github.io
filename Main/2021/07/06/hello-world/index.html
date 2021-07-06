@@ -58,7 +58,7 @@ img.emoji {
 			<div class="site-title links-right">
 					<p class="logo">
 			<a href="./../../../../index.html" class="logo">Lontoone</a>
-			<span class="site-tagline">全新的繁體中文 WordPress 網站</span>
+			<span class="site-tagline">熱愛程式的笨蛋</span>
 		</p>
 				<label for="checkbox-mainmenu" class="menu-toggle" data-menu="mainmenu"><span class="menu-toggle-content">
 					<span class="menu-icon"></span>
@@ -74,7 +74,7 @@ img.emoji {
 </form>
 					<p class="logo">
 			<a href="./../../../../index.html" class="logo">Lontoone</a>
-			<span class="site-tagline">全新的繁體中文 WordPress 網站</span>
+			<span class="site-tagline">熱愛程式的笨蛋</span>
 		</p>
 				<ul class="menu">
 						<ul class="menu">
@@ -92,10 +92,13 @@ img.emoji {
 <a href="./../../../../index.html" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1">
 </li>
 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-<span class="delimiter">/</span><a href="./../../../../category/uncategorized/index.html" itemprop="item"><span itemprop="name">未分類</span></a><meta itemprop="position" content="2">
+<span class="delimiter">/</span><a href="./../../../../sample-page/index.html" itemprop="item"><span itemprop="name">範例頁面</span></a><meta itemprop="position" content="2">
 </li>
 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-<span class="delimiter">/</span><span itemprop="name">網站第一篇文章</span><meta itemprop="position" content="3">
+<span class="delimiter">/</span><a href="./../../../../category/uncategorized/index.html" itemprop="item"><span itemprop="name">未分類</span></a><meta itemprop="position" content="3">
+</li>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<span class="delimiter">/</span><span itemprop="name">網站第一篇文章</span><meta itemprop="position" content="4">
 </li>
 </ol>
 <div class="content btn-type-flat has-sidebar fancy-borders" id="content" itemscope itemtype="http://schema.org/Article">
@@ -107,7 +110,6 @@ img.emoji {
 								<span class="meta meta-category"><a href="./../../../../category/uncategorized/index.html" rel="category tag">未分類</a></span> <i class="meta-sep">/</i>
 								<span class="meta meta-date">2021 年 7 月 6 日</span> <i class="meta-sep">/</i>
 				<span class="meta meta-author">Lontoone</span>
-								<i class="meta-sep">/</i> <span class="meta meta-comments"><a href="./index.html#comments" class="icon-comment comment-link">2</a></span>
 							</p>
 			
 <p>歡迎使用 WordPress。這是這個網站的第一篇文章，試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！</p>
@@ -117,82 +119,11 @@ img.emoji {
 <h2>你好，測試</h2>
 
 
-<p>using System.Collections;<br>
-using System.Collections.Generic;<br>
-using UnityEngine;</p>
-<p>public class TileStyleManager : MonoBehaviour<br>
-{<br>
-    public static TileStyleManager instance;<br>
-    public TileImageCollection imageCollection;<br>
-    public SelectRangeData checkRange;<br>
-    private void Awake()<br>
-    {<br>
-        if (instance == null)<br>
-        {<br>
-            instance = this;<br>
-        }<br>
-        else<br>
-        {<br>
-            Destroy(gameObject);<br>
-        }<br>
-    }<br>
-    public void Start()<br>
-    {<br>
-        checkRange.ReadData();</p>
-<p>        TileMapEditorControl.OnCellChanged += SetCell;<br>
-        TileMapEditorControl.OnCellChanged += SetNearbyCell;<br>
-    }<br>
-    private void OnDestroy()<br>
-    {<br>
-        TileMapEditorControl.OnCellChanged -= SetCell;<br>
-        TileMapEditorControl.OnCellChanged -= SetNearbyCell;<br>
-    }</p>
-<p>    public void SetCell(int _index)<br>
-    {<br>
-        CellState _state;<br>
-        if (TileMapManager.instance.cellStateMap.TryGetValue(_index, out _state) &#038;&#038; _state == CellState.NONE)<br>
-        {<br>
-            //Set none to white<br>
-            SetTillImage(TileMapManager.instance.gridCells[_index], 255);<br>
-        }<br>
-        else if (_state == CellState.SAW)<br>
-        {<br>
-            SetTillImage(TileMapManager.instance.gridCells[_index], 300);<br>
-            TileCell _cell = TileMapManager.instance.gridCells[_index];<br>
-            _cell.gameObject.AddComponent<saw>();<br>
-        }<br>
-        else<br>
-        {<br>
-            int _tileCondition = CheckCellOrientation(_index);<br>
-            SetTillImage(TileMapManager.instance.gridCells[_index], _tileCondition);<br>
-        }<br>
-    }</saw></p>
-<p>    public void SetNearbyCell(int _index)<br>
-    {<br>
-        TileCell _center = TileMapManager.instance.gridCells[_index];<br>
-        TileCell[] _cells = TileMapManager.instance.GetSelectRangeCells(checkRange, _index);<br>
-        for (int i = 0; i  0 &#038;&#038; CheckCellIsSameState(_center, _jiugongge[i]))<br>
-            {<br>
-                int _pow = (7 &#8211; i);<br>
-                _res += Mathf.Pow(2, _pow);<br>
-            }<br>
-        }<br>
-        Debug.Log(&#8220;cell &#8221; + _cellIndex + &#8221; condition &#8221; + _res);<br>
-        return (int)_res;<br>
-    }<br>
-    private bool CheckCellIsSameState(TileCell _center, TileCell _target)<br>
-    {<br>
-        if (_target == null || _center == null)<br>
-        {<br>
-            return false;<br>
-        }<br>
-        return TileMapManager.instance.cellStateMap[_center.grid_index] == TileMapManager.instance.cellStateMap[_target.grid_index];<br>
-    }</p>
-<p>    private void SetTillImage(TileCell _cell, int _conditionCode)<br>
-    {<br>
-        _cell.spriteRenderer.sprite = imageCollection.GetSprite(_conditionCode);<br>
-    }<br>
-}</p>
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container"></div></div>
+
+
+<p><iframe loading="lazy" src="https://lontoone.github.io/html/index.html" id="iMiddleContent" class="" frameborder="0" width="1200" height="1800"> </iframe></p>
 
 
 
@@ -222,63 +153,9 @@ using UnityEngine;</p>
 				</div>
 	</div>
 	
-			<section class="comments" id="comments">
-						<h2 class="spec-heading"><span>2 comments</span></h2>
-			<ul class="commentlist">
-					<li class="comment even thread-even depth-1 parent" id="comment-1">
-	<div id="div-comment-1">
-		<div class="comment-author vcard">
-			<img alt="" src="http://1.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=32&#038;d=mm&#038;r=g" srcset="http://1.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=64&#038;d=mm&#038;r=g 2x" class="avatar avatar-32 photo" height="32" width="32" loading="lazy">			<cite class="fn"><a href="https://wordpress.org/" rel="external nofollow ugc" class="url">WordPress 示範留言者</a></cite>
-			<p class="comment-meta commentmetadata"><a href="./index.html#comment-1">2021 年 7 月 6 日 at 下午 3:08</a>
-			<span class="sep">|</span><a rel="nofollow" class="comment-reply-link" href="./index.html?replytocom=1#respond" data-commentid="1" data-postid="1" data-belowelement="div-comment-1" data-respondelement="respond" data-replyto="回覆給「WordPress 示範留言者」" aria-label="回覆給「WordPress 示範留言者」">回覆</a>			</p>
-		</div>
-				<div class="comment-body">
-<p>網站管理員你好，這是一則預留內容留言。<br>
-如需開始審閱、編輯及刪除留言，請前往 [控制台] 的 [留言] 頁面進行必要的操作。<br>
-留言者個人頭像來源為 <a href="https://zh-tw.gravatar.com/" target="_blank">Gravatar</a>。</p>
-</div>
-	</div>
-	<ul class="children">
-	<li class="comment byuser comment-author-lontoone bypostauthor odd alt depth-2" id="comment-2">
-	<div id="div-comment-2">
-		<div class="comment-author vcard">
-			<img alt="" src="http://2.gravatar.com/avatar/e17f2527d42cfdd8836038fb381086de?s=32&#038;d=mm&#038;r=g" srcset="http://2.gravatar.com/avatar/e17f2527d42cfdd8836038fb381086de?s=64&#038;d=mm&#038;r=g 2x" class="avatar avatar-32 photo" height="32" width="32" loading="lazy">			<cite class="fn"><a href="./../../../../index.html" rel="external nofollow ugc" class="url">Lontoone</a></cite>
-			<p class="comment-meta commentmetadata"><a href="./index.html#comment-2">2021 年 7 月 6 日 at 下午 3:41</a>
-			<span class="sep">|</span><a rel="nofollow" class="comment-reply-link" href="./index.html?replytocom=2#respond" data-commentid="2" data-postid="1" data-belowelement="div-comment-2" data-respondelement="respond" data-replyto="回覆給「Lontoone」" aria-label="回覆給「Lontoone」">回覆</a>			</p>
-		</div>
-				<div class="comment-body">
-<p>示範留言</p>
-</div>
-	</div>
-	</li>
-<!-- #comment-## -->
-</ul>
-<!-- .children -->
-</li>
-<!-- #comment-## -->
-			</ul>
-					</section>
-		<section class="leave-comment">
-		<h2 class="spec-heading"><span>Leave a Comment</span></h2>
-			<div id="respond" class="comment-respond">
-		<h3 id="reply-title" class="comment-reply-title">發佈留言 <small><a rel="nofollow" id="cancel-comment-reply-link" href="./index.html#respond" style="display:none;">取消回覆</a></small>
-</h3>
-<form action="./../../../../wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
-<p class="comment-notes"><span id="email-notes">發佈留言必須填寫的電子郵件地址不會公開。</span> 必填欄位標示為 <span class="required">*</span></p>
-<p class="comment-form-author"><label for="author">顯示名稱 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
-<p class="comment-form-email"><label for="email">電子郵件地址 <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
-<p class="comment-form-url"><label for="url">個人網站網址</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
-<p class="comment-form-comment"><label for="comment">留言</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p>
-<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">在<strong>瀏覽器</strong>中儲存顯示名稱、電子郵件地址及個人網站網址，以供下次發佈留言時使用。</label></p>
-<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="發佈留言"> <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID">
-<input type="hidden" name="comment_parent" id="comment_parent" value="0">
-</p>
-</form>	</div>
-<!-- #respond -->
-		</section>
 	<div class="meta">
 		<meta itemprop="datePublished" content="2021-07-06">
-		<meta itemprop="dateModified" content="2021-07-06T15:40:39+08:00">
+		<meta itemprop="dateModified" content="2021-07-06T16:40:12+08:00">
 		<meta itemscope itemprop="mainEntityOfPage" content="" itemtype="https://schema.org/WebPage" itemid="./2021/07/06/hello-world/">
 		<meta itemprop="headline" content="網站第一篇文章">
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -336,7 +213,6 @@ using UnityEngine;</p>
 </fieldset>
 </form>
 </div>
-<script type="text/javascript" src="./../../../../wp-includes/js/comment-reply.min.js?ver=5.7.2" id="comment-reply-js"></script>
 <script type="text/javascript" src="./../../../../wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
 </body>
 </html>
