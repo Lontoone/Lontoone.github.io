@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lontoone</title>
+	<atom:link href="/Lontoone-wp/feed/" rel="self" type="application/rss+xml" />
+	<link>/Lontoone-wp</link>
+	<description>全新的繁體中文 WordPress 網站</description>
+	<lastBuildDate>Tue, 06 Jul 2021 07:40:39 +0000</lastBuildDate>
+	<language>zh-TW</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>網站第一篇文章</title>
+		<link>/Lontoone-wp/2021/07/06/hello-world/</link>
+					<comments>/Lontoone-wp/2021/07/06/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[Lontoone]]></dc:creator>
+		<pubDate>Tue, 06 Jul 2021 07:08:16 +0000</pubDate>
+				<category><![CDATA[未分類]]></category>
+		<guid isPermaLink="false">/Lontoone-wp/?p=1</guid>
+
+					<description><![CDATA[歡迎使用 WordPress。這是這個網站的第一篇文章，試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！]]></description>
+										<content:encoded><![CDATA[
+<p>歡迎使用 WordPress。這是這個網站的第一篇文章，試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！</p>
+
+
+
+<h2>你好，測試</h2>
+
+
+<p>using System.Collections;<br />
+using System.Collections.Generic;<br />
+using UnityEngine;</p>
+<p>public class TileStyleManager : MonoBehaviour<br />
+{<br />
+    public static TileStyleManager instance;<br />
+    public TileImageCollection imageCollection;<br />
+    public SelectRangeData checkRange;<br />
+    private void Awake()<br />
+    {<br />
+        if (instance == null)<br />
+        {<br />
+            instance = this;<br />
+        }<br />
+        else<br />
+        {<br />
+            Destroy(gameObject);<br />
+        }<br />
+    }<br />
+    public void Start()<br />
+    {<br />
+        checkRange.ReadData();</p>
+<p>        TileMapEditorControl.OnCellChanged += SetCell;<br />
+        TileMapEditorControl.OnCellChanged += SetNearbyCell;<br />
+    }<br />
+    private void OnDestroy()<br />
+    {<br />
+        TileMapEditorControl.OnCellChanged -= SetCell;<br />
+        TileMapEditorControl.OnCellChanged -= SetNearbyCell;<br />
+    }</p>
+<p>    public void SetCell(int _index)<br />
+    {<br />
+        CellState _state;<br />
+        if (TileMapManager.instance.cellStateMap.TryGetValue(_index, out _state) &#038;&#038; _state == CellState.NONE)<br />
+        {<br />
+            //Set none to white<br />
+            SetTillImage(TileMapManager.instance.gridCells[_index], 255);<br />
+        }<br />
+        else if (_state == CellState.SAW)<br />
+        {<br />
+            SetTillImage(TileMapManager.instance.gridCells[_index], 300);<br />
+            TileCell _cell = TileMapManager.instance.gridCells[_index];<br />
+            _cell.gameObject.AddComponent<Saw>();<br />
+        }<br />
+        else<br />
+        {<br />
+            int _tileCondition = CheckCellOrientation(_index);<br />
+            SetTillImage(TileMapManager.instance.gridCells[_index], _tileCondition);<br />
+        }<br />
+    }</p>
+<p>    public void SetNearbyCell(int _index)<br />
+    {<br />
+        TileCell _center = TileMapManager.instance.gridCells[_index];<br />
+        TileCell[] _cells = TileMapManager.instance.GetSelectRangeCells(checkRange, _index);<br />
+        for (int i = 0; i < _cells.Length; i++)
+        {
+            //if (_cells[i] != null &#038;&#038; CheckCellIsSameState(_center, _cells[i]))
+            if (_cells[i] != null)
+            {
+                SetCell(_cells[i].grid_index);
+            }
+        }
+    }
+
+    private int CheckCellOrientation(int _cellIndex)
+    {
+        TileCell[] _cellsToCheck = TileMapManager.instance.GetSelectRangeCells(checkRange, _cellIndex);
+        return GetConditionIndex(_cellIndex, _cellsToCheck);
+    }
+    private int GetConditionIndex(int _cellIndex, TileCell[] _jiugongge)
+    {
+        TileCell _center = TileMapManager.instance.gridCells[_cellIndex];
+        float _res = 0;
+        for (int i = 0; i < 8; i++)
+        {
+            if (_jiugongge.Length > 0 &#038;&#038; CheckCellIsSameState(_center, _jiugongge[i]))<br />
+            {<br />
+                int _pow = (7 &#8211; i);<br />
+                _res += Mathf.Pow(2, _pow);<br />
+            }<br />
+        }<br />
+        Debug.Log(&#8220;cell &#8221; + _cellIndex + &#8221; condition &#8221; + _res);<br />
+        return (int)_res;<br />
+    }<br />
+    private bool CheckCellIsSameState(TileCell _center, TileCell _target)<br />
+    {<br />
+        if (_target == null || _center == null)<br />
+        {<br />
+            return false;<br />
+        }<br />
+        return TileMapManager.instance.cellStateMap[_center.grid_index] == TileMapManager.instance.cellStateMap[_target.grid_index];<br />
+    }</p>
+<p>    private void SetTillImage(TileCell _cell, int _conditionCode)<br />
+    {<br />
+        _cell.spriteRenderer.sprite = imageCollection.GetSprite(_conditionCode);<br />
+    }<br />
+}</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/Lontoone-wp/2021/07/06/hello-world/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
