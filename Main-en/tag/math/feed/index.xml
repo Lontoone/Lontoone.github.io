@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>Lontoone &#8211; Lontoone-en</title>
+	<title>Math &#8211; Lontoone-en</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>New English site《Lontoone》</description>
@@ -56,28 +56,6 @@
 					
 					<wfw:commentRss>./../../../2021/07/06/mulit-lange-test/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>First English Site</title>
-		<link>./../../../2021/07/06/hello-world/index.html</link>
-					<comments>./../../../2021/07/06/hello-world/index.html#comments</comments>
-		
-		<dc:creator><![CDATA[Lontoone]]></dc:creator>
-		<pubDate>Tue, 06 Jul 2021 09:06:36 +0000</pubDate>
-				<category><![CDATA[未分類]]></category>
-		<guid isPermaLink="false">http://localhost/WordPress/wordpress/lontoone-en/?p=1</guid>
-
-					<description><![CDATA[歡迎使用《多站網路《Lontoone》的網站》。這是這個網站的第一篇文章。試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！]]></description>
-										<content:encoded><![CDATA[<p>歡迎使用《<a href="http://localhost/WordPress/wordpress/">多站網路《Lontoone》的網站</a>》。這是這個網站的第一篇文章。試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！</p>
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../../../2021/07/06/hello-world/feed/index.html</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>
