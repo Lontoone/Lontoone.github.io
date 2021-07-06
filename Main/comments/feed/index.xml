@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	《Lontoone》的留言	</title>
-	<atom:link href="/Lontoone-wp/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/Lontoone-wp</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
 	<description>全新的繁體中文 WordPress 網站</description>
 	<lastBuildDate>Tue, 06 Jul 2021 07:41:05 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,16 +20,16 @@
 	<item>
 		<title>
 		「Lontoone」發佈於〈網站第一篇文章〉的留言		</title>
-		<link>/Lontoone-wp/2021/07/06/hello-world/#comment-2</link>
+		<link>./../../2021/07/06/hello-world/index.html#comment-2</link>
 
 		<dc:creator><![CDATA[Lontoone]]></dc:creator>
 		<pubDate>Tue, 06 Jul 2021 07:41:05 +0000</pubDate>
-		<guid isPermaLink="false">/Lontoone-wp/?p=1#comment-2</guid>
+		<guid isPermaLink="false">./../../index.html?p=1#comment-2</guid>
 
-					<description><![CDATA[回覆的對象為「&lt;a href=&quot;/Lontoone-wp/2021/07/06/hello-world/#comment-1&quot;&gt;WordPress 示範留言者&lt;/a&gt;」。
+					<description><![CDATA[回覆的對象為「&lt;a href=&quot;./../../2021/07/06/hello-world/index.html#comment-1&quot;&gt;WordPress 示範留言者&lt;/a&gt;」。
 
 示範留言]]></description>
-			<content:encoded><![CDATA[<p>回覆的對象為「<a href="/Lontoone-wp/2021/07/06/hello-world/#comment-1">WordPress 示範留言者</a>」。</p>
+			<content:encoded><![CDATA[<p>回覆的對象為「<a href="./../../2021/07/06/hello-world/index.html#comment-1">WordPress 示範留言者</a>」。</p>
 <p>示範留言</p>
 ]]></content:encoded>
 		
@@ -37,11 +37,11 @@
 		<item>
 		<title>
 		「WordPress 示範留言者」發佈於〈網站第一篇文章〉的留言		</title>
-		<link>/Lontoone-wp/2021/07/06/hello-world/#comment-1</link>
+		<link>./../../2021/07/06/hello-world/index.html#comment-1</link>
 
 		<dc:creator><![CDATA[WordPress 示範留言者]]></dc:creator>
 		<pubDate>Tue, 06 Jul 2021 07:08:16 +0000</pubDate>
-		<guid isPermaLink="false">/Lontoone-wp/?p=1#comment-1</guid>
+		<guid isPermaLink="false">./../../index.html?p=1#comment-1</guid>
 
 					<description><![CDATA[網站管理員你好，這是一則預留內容留言。
 如需開始審閱、編輯及刪除留言，請前往 [控制台] 的 [留言] 頁面進行必要的操作。

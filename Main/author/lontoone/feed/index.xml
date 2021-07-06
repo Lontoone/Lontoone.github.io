@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Lontoone &#8211; Lontoone</title>
-	<atom:link href="/Lontoone-wp/author/lontoone/feed/" rel="self" type="application/rss+xml" />
-	<link>/Lontoone-wp</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
 	<description>全新的繁體中文 WordPress 網站</description>
 	<lastBuildDate>Tue, 06 Jul 2021 07:40:39 +0000</lastBuildDate>
 	<language>zh-TW</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>網站第一篇文章</title>
-		<link>/Lontoone-wp/2021/07/06/hello-world/</link>
-					<comments>/Lontoone-wp/2021/07/06/hello-world/#comments</comments>
+		<link>./../../../2021/07/06/hello-world/index.html</link>
+					<comments>./../../../2021/07/06/hello-world/index.html#comments</comments>
 		
 		<dc:creator><![CDATA[Lontoone]]></dc:creator>
 		<pubDate>Tue, 06 Jul 2021 07:08:16 +0000</pubDate>
 				<category><![CDATA[未分類]]></category>
-		<guid isPermaLink="false">/Lontoone-wp/?p=1</guid>
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
 
 					<description><![CDATA[歡迎使用 WordPress。這是這個網站的第一篇文章，試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！]]></description>
 										<content:encoded><![CDATA[
@@ -141,7 +141,7 @@ using UnityEngine;</p>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/Lontoone-wp/2021/07/06/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>./../../../2021/07/06/hello-world/feed/index.html</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
