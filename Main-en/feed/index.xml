@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lontoone-en</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>New English site《Lontoone》</description>
+	<lastBuildDate>Tue, 06 Jul 2021 09:22:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>First English Site</title>
+		<link>./../2021/07/06/hello-world/index.html</link>
+					<comments>./../2021/07/06/hello-world/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Lontoone]]></dc:creator>
+		<pubDate>Tue, 06 Jul 2021 09:06:36 +0000</pubDate>
+				<category><![CDATA[未分類]]></category>
+		<guid isPermaLink="false">http://localhost/WordPress/wordpress/lontoone-en/?p=1</guid>
+
+					<description><![CDATA[歡迎使用《多站網路《Lontoone》的網站》。這是這個網站的第一篇文章。試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！]]></description>
+										<content:encoded><![CDATA[<p>歡迎使用《<a href="http://localhost/WordPress/wordpress/">多站網路《Lontoone》的網站</a>》。這是這個網站的第一篇文章。試試為這篇文章進行編輯或直接刪除，然後開始撰寫新文章！</p>
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2021/07/06/hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
