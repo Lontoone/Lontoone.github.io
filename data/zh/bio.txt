@@ -1,7 +1,16 @@
+2021	[第一名]資訊應用菁英班 畢業學業成績最佳獎
+2021	[佳作]數位內容創意加值競賽 -AR/VR應用組
 2021	[入圍]放視大賞 VR遊戲組
-2021	[產學]國立海洋博物館商品建模產學案
+2021	[產學]國立海洋博物館展示商品建模。
 2021/2/13	網站開幕!(無聊寫一個)
+2020	[經歷]教育部跨校選送優秀青年學子赴國外著名機構蹲點數位遊戲開發人才赴日本頂尖專業企劃拋光企劃 - 入選日本TOYDEA公司。
+2020	[經歷]美國UCLA大學DIY Punk課程遠端演講、分享數位遊戲製作心得。
+2020	[GEO公司實習]2020 水保局世貿資訊月展覽 VR導覽遊戲製作者。
+2020	[GEO公司] 農糧署 產銷履歷金頭腦網頁遊戲 - Unity工程師。
+2020	[GEO公司] 林務局 阿里山導覽AR遊戲 - Unity工程師。
 2020	Winner of Herb Alpert School of Music in University of California, Los Angeles Make A Scene Game jam.
+2020	[新型專利] 整合性3D社群人物互動系統 共同創作人。
+2020	[專案]中科大百年校慶資管系互動遊戲PaPaGo 資料庫、Unity工程師。
 2020	TOEIC 895
 2020	JLPT N2
 2020	[佳作] 大專校院資訊應用服務創新競賽-InnoServe 宅妝AR/VR創新應用組
@@ -12,3 +21,4 @@
 2019	[第一名] 極客松 創新創意競賽 - 2Days Digital Game Jam Contest
 2019 	[第二名] 瑪麗MuMu盃 - App for Mentally disabled students Dev Contest
 2019	[第三名] 文化數位創意加值競賽 - AR/VR Educational Game Dev Contest
+2019	[獎學金]台肥基金會108年優秀學生獎學金 
