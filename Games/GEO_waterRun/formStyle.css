@@ -1,0 +1,114 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.title {
+  text-align: center;
+  margin: auto 0;
+  font-size: 16pt;
+}
+.formContainer {
+  margin-top: 10vh;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: center;
+  /*
+    display: grid;
+
+    grid-template-rows: 
+    10%
+    30px 50px
+    30px 50px
+     auto;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+}
+.putCenter {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer * {
+  margin: 5px 20px;
+}
+.form-label {
+  text-align: left;
+  font-size: 16pt;
+}
+
+.fillinBlock {
+  border: solid 1px #e5e5e5;
+  background-color: #f5f5f549;
+  height: 2em;
+  width: 50%;
+}
+
+.fillinItems p {
+  font-size: 16pt;
+  width: 100px;
+  height: 20px;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+.submit-button {
+  border: none;
+  background-color: #a5a5a5;
+  color: aliceblue;
+  padding: 5px;
+  width: 25%;
+  height: 50px;
+  font-size: 14pt;
+
+  cursor: pointer;
+}
+
+.fillinItems input:not(.roundBtn) {
+  height: 50%;
+}
+
+/*vvvvvvvv底部白框樣式vvvvvvvv*/
+@media screen and (min-width: 300px)and (orientation: portrait) {
+  .formContainer {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .title{
+      font-size: 3em;
+  }
+
+  .form-label {
+    font-size: 3em;
+  }
+
+  .fillinBlock {
+    height: 2.5em;
+    font-size: 3em;
+    width: 100%;
+  }
+
+  .submit-button {
+    font-size: 3em;
+    height: 10%;
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 900px) {
+  .formContainer {
+    width: 80%;
+  }
+  .blockFooter {
+    grid-template-columns: 80px 100px auto;
+  }
+}
+/*^^^^^^^^底部白框樣式^^^^^^^^*/
