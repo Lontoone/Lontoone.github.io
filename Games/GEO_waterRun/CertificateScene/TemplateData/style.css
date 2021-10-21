@@ -6,6 +6,7 @@ html {
 }
 html, body {
     height: 100%;
+    position: relative;
 }
 canvas {
     display: block;
@@ -17,6 +18,8 @@ body {
     width: 100%;
     /*height: 100%;*/
     height: 46vw;
+    position: absolute;
+    z-index: 1;
 }
 #unity-canvas {
     width: 100%;
@@ -25,6 +28,7 @@ body {
 }
 #loading-cover {
     position: absolute;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -70,6 +74,7 @@ body {
 
 #unity-fullscreen-button {
     position: absolute;
+    z-index: 99;
     /*
     right: 10px;
     bottom: 10px;
