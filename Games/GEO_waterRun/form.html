@@ -10,13 +10,9 @@
         <div class="title">
             請填入基本資料以產生獎狀
         </div>
-        <script>
-            const params = new URLSearchParams(document.location.search);
-            const km = params.get("lkm");
-            document.getElementById("lkm").value=km;
-        </script>
-        <form class="putCenter" action="./CertificateScene/index.html" method="GET">            
-            <input type="text" class="hidden" id="lkm" name="lkm" ><br><br>
+
+        <form class="putCenter" action="./CertificateScene/index.html" method="GET">
+            <input type="text" class="hidden" id="lkm" name="lkm"><br><br>
 
             <label class="form-label" for="lname">姓名:</label>
             <input type="text" class="fillinBlock" id="lname" name="lname"><br><br>
@@ -30,6 +26,11 @@
         </form>
 
     </div>
+    <script>
+        const params = new URLSearchParams(document.location.search);
+        const km = params.get("lkm");
+        document.getElementById("lkm").value = km;
+    </script>
 </body>
 
 </html>
