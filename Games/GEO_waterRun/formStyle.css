@@ -77,15 +77,19 @@ body {
   height: 50%;
 }
 
+.hidden {
+  display: none;
+}
+
 /*vvvvvvvv底部白框樣式vvvvvvvv*/
-@media screen and (min-width: 300px)and (orientation: portrait) {
+@media screen and (min-width: 300px) and (orientation: portrait) {
   .formContainer {
     height: 80%;
     width: 80%;
     margin: 0 auto;
   }
-  .title{
-      font-size: 3em;
+  .title {
+    font-size: 3em;
   }
 
   .form-label {
