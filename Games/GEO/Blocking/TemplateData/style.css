@@ -6,7 +6,6 @@ html {
 }
 html, body {
     height: 100%;
-    position: relative;
 }
 canvas {
     display: block;
@@ -16,10 +15,7 @@ body {
 }
 #unity-container {
     width: 100%;
-    /*height: 100%;*/
-    height: 46vw;
-    position: absolute;
-    z-index: 1;
+    height: 100%;
 }
 #unity-canvas {
     width: 100%;
@@ -28,12 +24,10 @@ body {
 }
 #loading-cover {
     position: absolute;
-    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
-    /*height: 100%;*/
-    height: 46vw;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +43,11 @@ body {
     text-align: center;
 }
 #unity-logo img {
-    max-width: 50%;
-    max-height: 300px;
+    max-width: 80%;
 }
 #unity-progress-bar-empty {
-    width: 50%;
-    height: 15px;
+    width: 80%;
+    height: 24px;
     margin: 10px 20px 20px 10px;
     text-align: left;
     border: 1px solid white;
@@ -74,17 +67,11 @@ body {
 
 #unity-fullscreen-button {
     position: absolute;
-    z-index: 99;
-    /*
     right: 10px;
     bottom: 10px;
     width: 38px;
     height: 38px;
     background: url('fullscreen-button.png') no-repeat center;
-    */
-    width: 100vw;
-    height: 100vh;
-    background-color: transparent;
     background-size: contain;
 }
 
@@ -115,9 +102,4 @@ body {
   }
 }
 
-@media only screen and (max-width: 1000px) {
-    #unity-fullscreen-button {
-      display: none;
-    }
-  }
 
