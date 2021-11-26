@@ -1,0 +1,18 @@
+{
+  "zh": [
+    {
+      "type": "computition",
+      "content": "GAME JAME",
+      "link": "https",
+      "date":"2021"
+    }
+  ],
+  "en": [
+    {
+      "type": "computition",
+      "content": "GAME JAME",
+      "link": "https",
+      "date":"2021"
+    }
+  ]
+}
