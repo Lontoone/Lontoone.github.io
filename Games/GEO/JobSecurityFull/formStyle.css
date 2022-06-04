@@ -1,15 +1,57 @@
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.formContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+
+    
+}
+.form{
+    padding: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    margin: 25px auto;
+    font-size: large;
+    font-weight: 900;
+    height: 50px;
+}
+.submit-button{
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #777;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 900;
+}
+
+/*
 .title{
     text-align: center;
     margin: auto 0;
     font-size: large;
+    height: 50px;
 }
 .formContainer{
     margin-top: 10vh;
     margin: 10% auto;
-    /*text-align: center;*/
     width: 25vw;
-    height: 70vh;
-    display: grid;
+    display: flex;
+    flex-direction: column;   
 
     grid-template-rows: 
     10%
@@ -22,7 +64,7 @@
     background-color: rgb(255, 255, 255);
 }
 .formContainer *{
-    padding:5px 20px ;
+    padding:5px 20px ;    
 }
 label{
     text-align: left;
@@ -49,15 +91,17 @@ label{
 
 .fillinItems input:not(.roundBtn){
     height: 50%;
+    margin: 0 auto;
 }
-
-
+.putCenter{
+    flex-grow: 0.8;
+}
+*/
 
 /*vvvvvvvv底部白框樣式vvvvvvvv*/
 @media screen and (min-width:300px) {
     .formContainer{
         width: 270px;
-        height: 650px;
     }
        
     .blockFooter{
@@ -72,8 +116,6 @@ label{
 }@media screen  and (orientation: landscape){
     .formContainer{
         width: 700px;
-        height: 700px;
-
     }
     .blockFooter{
         grid-template-columns: 80px 100px auto;
