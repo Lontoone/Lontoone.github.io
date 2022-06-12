@@ -44,7 +44,8 @@ body {
     text-align: center;
 }
 #unity-logo img {
-    max-width: 80%;
+    width: 80%;
+    max-width: 250px;
 }
 #unity-progress-bar-empty {
     width: 80%;
