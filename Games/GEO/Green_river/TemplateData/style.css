@@ -14,17 +14,19 @@ body {
     margin: 0;
 }
 #unity-container {
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    width: 46vh;
+    height: 100%;    
+    margin: auto;
 }
-
+/*
 @media screen and (orientation: landscape) {
     #unity-container {
-      width: 46vw;
+      width: 46vh;
       height: 100%;
       margin: auto;
     }
-  }
+  }*/
 #unity-canvas {
     width: 100%;
     height: 100%;
