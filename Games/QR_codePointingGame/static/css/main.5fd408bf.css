@@ -264,11 +264,11 @@ body {
 #reader__scan_region video{
 	border-radius: 15px;		
 }
-*/
 #reader__dashboard{
 	visibility: hidden;
 	display: none;
 }
+*/
 
 #reader{	
 	border: unset !important;
