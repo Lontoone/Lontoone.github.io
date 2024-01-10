@@ -257,17 +257,17 @@ body {
 }
 
 /* Scanner  
-*/
 #html5-qrcode-button-camera-stop{
-	visibility: hidden;
-    display: none;
-}
-#reader__dashboard{
 	visibility: hidden;
     display: none;
 }
 #reader__scan_region video{
 	border-radius: 15px;		
+}
+*/
+#reader__dashboard{
+	visibility: hidden;
+	display: none;
 }
 
 #reader{	
