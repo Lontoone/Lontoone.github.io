@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;  
+  justify-content: center;
+}
+
+.video-container {
+  max-width: 90vw;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video-cell {
+  width: 100%;
+  /*max-width: 450px;*/
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.video-cell video{
+    width: 100%;
+}
+
+.starter{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+}
