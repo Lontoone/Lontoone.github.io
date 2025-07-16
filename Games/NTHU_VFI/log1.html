@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="starter">
+        <h1> VFI demo</h1>
+        <p> This is the page for VFI demo. </p>
+    </div>
+
+
+    <div class="video-container">
+        <h1> 跑在 Training dataset上 </h1>
+        <p> 可以看到純靠Growing也能有優於pre-trained model的能力。 </p>
+
+        <div class="video-row">
+            <div class="video-cell">
+                <h2>Pre-trained</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_0_1_0__raw_pretrain.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-cell">
+                <h2>Growing only</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_0_1_0__grow_only.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-cell">
+                <h2>Full pipeline</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_0_1_0__fine_ep156.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="video-row">
+            <div class="video-cell">
+                <h2>Pre-trained</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_0_2_3__raw_pretrain.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-cell">
+                <h2>Growing only</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_0_2_3__grow_only.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-cell">
+                <h2>Full pipeline</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_0_2_3__fine_ep156.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+        <div class="video-row">
+            <div class="video-cell">
+                <h2>Pre-trained</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_1_1_0__raw_pretrain.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-cell">
+                <h2>Growing only</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_1_1_0__grow_only.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-cell">
+                <h2>Full pipeline</h2>
+                <video controls>
+                    <source src="video/log1/new/TPS_1_1_0__fine_ep156.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <hr/>
+        <div >
+            <h2> Improvement</h2>
+            <div class="img-container">
+                <img src="image/log1_imp_t1.png" class="img-m"/>
+                <img src="image/log1_imp_t2.png" class="img-m"/>
+                <img src="image/log1_imp_t3.png" class="img-m"/>
+                <img src="image/log1_imp_t4.png" class="img-m"/>
+                <img src="image/log1_imp_t5.png" class="img-m"/>
+                <img src="image/log1_imp_t6.png" class="img-m"/>
+            </div>
+        </div>
+        <hr/>
+    </div>
+
+    
+
+  <div class="video-container">
+    <h1> 跑在Testing dataset </h1>
+    <p> 這是finetuned SEA-RAFT 跑在testing dataset上。 </p>
+
+    <div class="video-row">
+        <div class="video-cell">
+            <h2>Raw SEA-RAFT motion</h2>
+            <video controls>        
+                <source src="video/log1/new/AnimeFantasyRPG_M_30_0004__raw_ep196.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-cell">
+            <h2>Ours</h2>
+            <video controls>
+                <source src="video/log1/new/AnimeFantasyRPG_M_30_0004__fine_ep196.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <hr/>
+    <div >
+        <h2> Improvement</h2>
+        <div class="img-container">
+            <img src="image/log1_imp_39.png" class="img-m"/>
+            <img src="image/log1_imp_133.png" class="img-m"/>
+            <img src="image/log1_imp_141.png" class="img-m"/>
+            <img src="image/log1_imp_143.png" class="img-m"/>
+        </div>
+    </div>
+    <hr/>
+
+    <div class="video-row">
+        <div class="video-cell">
+            <h2>Raw SEA-RAFT motion</h2>
+            <video controls>        
+                <source src="video/log1/new/0002_raw (video-converter.com).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-cell">
+            <h2>Ours</h2>
+            <video controls>
+                <source src="video/log1/new/0002_fine (video-converter.com).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    
+  </div>
+</body>
+</html>

@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+  
 }
 
 .video-cell {
@@ -35,4 +36,14 @@ body {
     width: 100vw;
     display: grid;
     justify-content: center;
+}
+.img-m{
+  width: 50%;
+}
+
+.img-container{
+  width: 90%;
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
 }
