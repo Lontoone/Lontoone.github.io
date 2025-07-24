@@ -16,9 +16,10 @@ body {
 
 .video-row {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   gap: 20px;
-  
+  overflow-x: scroll;
+
 }
 
 .video-cell {
